@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- saved from url=(0073)file:///home/ryosuke-k/Documents/bootstrap/pracs/LingarBrowser/index.html -->
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Bootstrap Example</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <style>
+        sentence_prop {
+            margin: 150px 10px 10px 50px;
+            display: flex;
+            align-items: center;
+            font: Arial;
+            font-size: 20pt;
+        }
+
+        button_prop {
+            margin: 50px 10px 10px 70px;
+            display: flex;
+            align-items: center;
+            font: Arial;
+            font-size: 15pt;
+        }
+    </style>
+    <script src="./js/src.js"></script>
+    <style type="text/css"></style>
+    <script>
+        function add() {
+            console.log($("#sentence_num").val());
+        }
+    </script>
+</head>
+
+<body>
+    <button_prop>
+        <form id="start_form">
+            <select id=sentence_num>
+                <option value ="1">1</option>
+                <option value ="5">5</option>
+                <option value ="10">10</option>
+                <option value ="15">15</option>
+                <option value ="20">20</option>
+                <option value ="25">25</option>
+                <option value ="30">30</option>
+            </select> sentence in
+            <select id=sentence_lang>
+                <option value ="english">english</option>
+            </select> with
+            <select id=experiment_type>
+                <option value ="SPR">Self Paced Reading</option>
+            </select>
+
+            <input type="button" size="0" value="START" id="start" onclick="add()" />
+        </form>
+    </button_prop>
+
+    <!-- <button_prop>
+        <input type="button" size="0" value="START" id="start" />
+    </button_prop> -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12">
+                <sentence_prop>
+                    <input type="text" id="sentence" size="100" font-size="100%" value="" />
+                </sentence_prop>
+            </div>
+        </div>
+    </div>
+
+    <button_prop>
+        <input type="button" size="50" value="NEXT" id="next">
+    </button_prop>
+
+
+</body>
+
+</html>

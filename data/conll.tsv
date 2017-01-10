@@ -1,0 +1,2478 @@
+#	Aux1	The story may be false .	Aux
+1	The	_	DET	DT	_	2	det	_	_
+2	story	_	NOUN	NN	_	5	nsubj	_	_
+3	may	_	AUX	MD	_	5	aux	_	_
+4	be	_	VERB	VB	_	5	cop	_	_
+5	sad	_	ADJ	JJ	_	0	root	_	_
+6	.	_	PUNCT	.	_	5	punct	_	_
+Q	It is a happy story.
+A	N
+
+#	Aux2	This book might be useful for you .	Aux
+1	This	_	DET	DT	_	2	det	_	_
+2	book	_	NOUN	NN	_	5	nsubj	_	_
+3	might	_	AUX	MD	_	5	aux	_	_
+4	be	_	VERB	VB	_	5	cop	_	_
+5	useful	_	ADJ	JJ	_	0	root	_	_
+6	for	_	ADP	IN	_	5	prep	_	_
+7	you	_	PRON	PRP	_	6	pobj	_	_
+8	.	_	PUNCT	.	_	5	punct	_	_
+Q	Possible, the book is useful.
+A	Y
+
+#	Aux3	He should be back at any moment .	Aux
+1	He	_	PRON	PRP	_	3	nsubj	_	_
+2	should	_	AUX	MD	_	3	aux	_	_
+3	be	_	VERB	VB	_	0	root	_	_
+4	back	_	ADV	RB	_	3	advmod	_	_
+5	at	_	ADP	IN	_	3	prep	_	_
+6	any	_	DET	DT	_	7	det	_	_
+7	moment	_	NOUN	NN	_	5	pobj	_	_
+8	.	_	PUNCT	.	_	3	punct	_	_
+Q	He have to get back.
+A	Y
+
+#	Aux4	In Japan prices ought to go up in the near future .	Aux
+1	In	_	ADP	IN	_	4	prep	_	_
+2	Japan	_	PROPN	NNP	_	1	pobj	_	_
+3	prices	_	NOUN	NNS	_	4	nsubj	_	_
+4	ought	_	AUX	MD	_	0	root	_	_
+5	to	_	PART	TO	_	6	aux	_	_
+6	go	_	VERB	VB	_	4	xcomp	_	_
+7	up	_	ADP	RP	_	6	prt	_	_
+8	in	_	ADP	IN	_	6	prep	_	_
+9	the	_	DET	DT	_	11	det	_	_
+10	near	_	ADJ	JJ	_	11	amod	_	_
+11	future	_	NOUN	NN	_	8	pobj	_	_
+12	.	_	PUNCT	.	_	4	punct	_	_
+Q	Prices will be down in Japan.
+A	N
+
+#	Aux5	He must be over thirty from his appearance .	Aux
+1	He	_	PRON	PRP	_	3	nsubj	_	_
+2	must	_	AUX	MD	_	3	aux	_	_
+3	be	_	VERB	VB	_	0	root	_	_
+4	over	_	ADP	IN	_	3	prep	_	_
+5	thirty	_	NUM	CD	_	4	pobj	_	_
+6	from	_	ADP	IN	_	3	prep	_	_
+7	his	_	PRON	PRP	_	8	poss	_	_
+8	appearance	_	NOUN	NN	_	6	pobj	_	_
+9	.	_	PUNCT	.	_	3	punct	_	_
+Q	He looks like teenager.
+A	N
+
+#	Aux6	He must have stolen the money .	Aux
+1	He	_	PRON	PRP	_	4	nsubj	_	_
+2	must	_	AUX	MD	_	4	aux	_	_
+3	have	_	AUX	VB	_	4	aux	_	_
+4	stolen	_	VERB	VBN	_	0	root	_	_
+5	the	_	DET	DT	_	6	det	_	_
+6	money	_	NOUN	NN	_	4	dobj	_	_
+7	.	_	PUNCT	.	_	4	punct	_	_
+Q	He lost his money.
+A	Y
+
+#	Aux7	You should have gone to see the concert yesterday .	Aux
+1	You	_	PRON	PRP	_	4	nsubj	_	_
+2	should	_	AUX	MD	_	4	aux	_	_
+3	have	_	AUX	VB	_	4	aux	_	_
+4	gone	_	VERB	VBN	_	0	root	_	_
+5	to	_	PART	TO	_	6	aux	_	_
+6	see	_	VERB	VB	_	4	xcomp	_	_
+7	the	_	DET	DT	_	8	det	_	_
+8	concert	_	NOUN	NN	_	6	dobj	_	_
+9	yesterday	_	NOUN	NN	_	6	tmod	_	_
+10	.	_	PUNCT	.	_	4	punct	_	_
+Q	It had a concert yesterday.
+A	Y
+
+#	Aux8	There were only two guests at the party .	Aux
+1	There	_	PRON	EX	_	2	expl	_	_
+2	were	_	VERB	VBD	_	0	root	_	_
+3	only	_	ADV	RB	_	2	advmod	_	_
+4	two	_	NUM	CD	_	5	num	_	_
+5	guests	_	NOUN	NNS	_	3	pobj	_	_
+6	at	_	ADP	IN	_	2	prep	_	_
+7	the	_	DET	DT	_	8	det	_	_
+8	party	_	NOUN	NN	_	6	pobj	_	_
+9	.	_	PUNCT	.	_	2	punct	_	_
+Q	There were so many guests.
+A	N
+
+#	Aux9	It seems that there is no room for doubt .	Aux
+1	It	_	PRON	PRP	_	2	nsubj	_	_
+2	seems	_	VERB	VBZ	_	0	root	_	_
+3	that	_	SCONJ	IN	_	5	mark	_	_
+4	there	_	PRON	EX	_	5	expl	_	_
+5	is	_	VERB	VBZ	_	2	ccomp	_	_
+6	no	_	DET	DT	_	7	neg	_	_
+7	room	_	NOUN	NN	_	5	nsubj	_	_
+8	for	_	ADP	IN	_	7	prep	_	_
+9	doubt	_	NOUN	NN	_	8	pobj	_	_
+10	.	_	PUNCT	.	_	2	punct	_	_
+Q	Some rooms are very questionable.
+A	N
+
+#	Aux10	Chances are good that salaries will decrease by 5 % next year .	Aux
+1	Chances	_	NOUN	NNS	_	3	nsubj	_	_
+2	are	_	VERB	VBP	_	3	cop	_	_
+3	good	_	ADJ	JJ	_	0	root	_	_
+4	that	_	SCONJ	IN	_	7	mark	_	_
+5	salaries	_	NOUN	NNS	_	7	nsubj	_	_
+6	will	_	AUX	MD	_	7	aux	_	_
+7	decrease	_	VERB	VB	_	3	ccomp	_	_
+8	by	_	ADP	IN	_	7	prep	_	_
+9	5	_	NUM	CD	_	10	num	_	_
+10	%	_	SYM	NN	_	8	pobj	_	_
+11	next	_	ADJ	JJ	_	12	amod	_	_
+12	year	_	NOUN	NN	_	7	tmod	_	_
+13	.	_	PUNCT	.	_	3	punct	_	_
+Q	Salaries will decrease in the future..
+A	Y
+
+#	Aux11	It is certain that he will come .	Aux
+1	It	_	PRON	PRP	_	3	nsubj	_	_
+2	is	_	VERB	VBZ	_	3	cop	_	_
+3	certain	_	ADJ	JJ	_	0	root	_	_
+4	that	_	SCONJ	IN	_	7	mark	_	_
+5	he	_	PRON	PRP	_	7	nsubj	_	_
+6	will	_	AUX	MD	_	7	aux	_	_
+7	come	_	VERB	VB	_	3	ccomp	_	_
+8	.	_	PUNCT	.	_	3	punct	_	_
+Q	He does not come absolutely.
+A	N
+
+#	Aux12	It is possible that he will come .	Aux
+1	It	_	PRON	PRP	_	3	nsubj	_	_
+2	is	_	VERB	VBZ	_	3	cop	_	_
+3	possible	_	ADJ	JJ	_	0	root	_	_
+4	that	_	SCONJ	IN	_	7	mark	_	_
+5	he	_	PRON	PRP	_	7	nsubj	_	_
+6	will	_	AUX	MD	_	7	aux	_	_
+7	come	_	VERB	VB	_	3	ccomp	_	_
+8	.	_	PUNCT	.	_	3	punct	_	_
+Q	It is not sure whether he will come or not.
+A	Y
+
+#	Causality1	He was forced to resign because he had taken a bribe .	Causality
+1	He	_	PRON	PRP	_	3	nsubjpass	_	_
+2	was	_	AUX	VBD	_	3	auxpass	_	_
+3	forced	_	VERB	VBN	_	0	root	_	_
+4	to	_	PART	TO	_	5	aux	_	_
+5	resign	_	VERB	VB	_	3	xcomp	_	_
+6	because	_	SCONJ	IN	_	9	mark	_	_
+7	he	_	PRON	PRP	_	9	nsubj	_	_
+8	had	_	AUX	VBD	_	9	aux	_	_
+9	taken	_	VERB	VBN	_	5	advcl	_	_
+10	a	_	DET	DT	_	11	det	_	_
+11	bribe	_	NOUN	NN	_	9	dobj	_	_
+12	.	_	PUNCT	.	_	3	punct	_	_
+Q	He wanted to quit his job.
+A	N
+
+#	Causality2	You should not despise a man because he is poor .	Causality
+1	You	_	PRON	PRP	_	4	nsubj	_	_
+2	should	_	AUX	MD	_	4	aux	_	_
+3	not	_	PART	RB	_	4	neg	_	_
+4	despise	_	VERB	VB	_	0	root	_	_
+5	a	_	DET	DT	_	6	det	_	_
+6	man	_	NOUN	NN	_	4	dobj	_	_
+7	because	_	SCONJ	IN	_	10	mark	_	_
+8	he	_	PRON	PRP	_	10	nsubj	_	_
+9	is	_	VERB	VBZ	_	10	cop	_	_
+10	poor	_	ADJ	JJ	_	4	advcl	_	_
+11	.	_	PUNCT	.	_	4	punct	_	_
+Q	You should give your money to poor people.
+A	N
+
+#	Causality3	The baby cried not because he was sad , but because he was hungry .	Causality
+1	The	_	DET	DT	_	2	det	_	_
+2	baby	_	NOUN	NN	_	3	nsubj	_	_
+3	cried	_	VERB	VBD	_	0	root	_	_
+4	not	_	ADV	RB	_	8	dep	_	_
+5	because	_	SCONJ	IN	_	8	mark	_	_
+6	he	_	PRON	PRP	_	8	nsubj	_	_
+7	was	_	VERB	VBD	_	8	cop	_	_
+8	sad	_	ADJ	JJ	_	3	advcl	_	_
+9	,	_	PUNCT	,	_	8	punct	_	_
+10	but	_	CONJ	CC	_	8	cc	_	_
+11	because	_	SCONJ	IN	_	14	mark	_	_
+12	he	_	PRON	PRP	_	14	nsubj	_	_
+13	was	_	VERB	VBD	_	14	cop	_	_
+14	hungry	_	ADJ	JJ	_	8	conj	_	_
+15	.	_	PUNCT	.	_	3	punct	_	_
+Q	Baby often cries when he is hungry.
+A	N
+
+#	Causality4	Since we have agreed , we should start the project soon .	Causality
+1	Since	_	SCONJ	IN	_	4	mark	_	_
+2	we	_	PRON	PRP	_	4	nsubj	_	_
+3	have	_	AUX	VBP	_	4	aux	_	_
+4	agreed	_	VERB	VBN	_	8	advcl	_	_
+5	,	_	PUNCT	,	_	8	punct	_	_
+6	we	_	PRON	PRP	_	8	nsubj	_	_
+7	should	_	AUX	MD	_	8	aux	_	_
+8	start	_	VERB	VB	_	0	root	_	_
+9	the	_	DET	DT	_	10	det	_	_
+10	project	_	NOUN	NN	_	8	dobj	_	_
+11	soon	_	ADV	RB	_	8	advmod	_	_
+12	.	_	PUNCT	.	_	8	punct	_	_
+Q	The project has already started.
+A	N
+
+#	Causality5	Seeing that the ground is wet , it must have rained a while ago .	Causality
+1	Seeing	_	VERB	VBG	_	11	vmod	_	_
+2	that	_	SCONJ	IN	_	6	mark	_	_
+3	the	_	DET	DT	_	4	det	_	_
+4	ground	_	NOUN	NN	_	6	nsubj	_	_
+5	is	_	VERB	VBZ	_	6	cop	_	_
+6	wet	_	ADJ	JJ	_	1	ccomp	_	_
+7	,	_	PUNCT	,	_	11	punct	_	_
+8	it	_	PRON	PRP	_	11	nsubj	_	_
+9	must	_	AUX	MD	_	11	aux	_	_
+10	have	_	AUX	VB	_	11	aux	_	_
+11	rained	_	VERB	VBD	_	0	root	_	_
+12	a	_	DET	DT	_	13	det	_	_
+13	while	_	NOUN	NN	_	14	npadvmod	_	_
+14	ago	_	ADV	RB	_	11	advmod	_	_
+15	.	_	PUNCT	.	_	11	punct	_	_
+Q	It was rained that day.
+A	Y
+
+#	Causality6	Now that you are an adult , you should do it yourself .	Causality
+1	Now	_	ADV	RB	_	6	advmod	_	_
+2	that	_	SCONJ	IN	_	6	mark	_	_
+3	you	_	PRON	PRP	_	6	nsubj	_	_
+4	are	_	VERB	VBP	_	6	cop	_	_
+5	an	_	DET	DT	_	6	det	_	_
+6	adult	_	NOUN	NN	_	10	advcl	_	_
+7	,	_	PUNCT	,	_	10	punct	_	_
+8	you	_	PRON	PRP	_	10	nsubj	_	_
+9	should	_	AUX	MD	_	10	aux	_	_
+10	do	_	VERB	VB	_	0	root	_	_
+11	it	_	PRON	PRP	_	10	iobj	_	_
+12	yourself	_	PRON	PRP	_	10	dobj	_	_
+13	.	_	PUNCT	.	_	10	punct	_	_
+Q	An adult has a responsibility to do things by yourself.
+A	Y
+
+#	Causality7	Human beings are different from the other animals in that they can use languages .	Causality
+1	Human	_	PROPN	NNP	_	2	nn	_	_
+2	beings	_	NOUN	NNS	_	4	nsubj	_	_
+3	are	_	VERB	VBP	_	4	cop	_	_
+4	different	_	ADJ	JJ	_	0	root	_	_
+5	from	_	ADP	IN	_	4	prep	_	_
+6	the	_	DET	DT	_	8	det	_	_
+7	other	_	ADJ	JJ	_	8	amod	_	_
+8	animals	_	NOUN	NNS	_	5	pobj	_	_
+9	in	_	ADP	IN	_	13	prep	_	_
+10	that	_	PRON	WDT	_	9	pobj	_	_
+11	they	_	PRON	PRP	_	13	nsubj	_	_
+12	can	_	AUX	MD	_	13	aux	_	_
+13	use	_	VERB	VB	_	8	rcmod	_	_
+14	languages	_	NOUN	NNS	_	13	dobj	_	_
+15	.	_	PUNCT	.	_	4	punct	_	_
+Q	Human is special in terms of his remarkable ability to speak.
+A	Y
+
+#	Causality8	The officer was prosecuted on the ground that he had taken a bribe .	Causality
+1	The	_	DET	DT	_	2	det	_	_
+2	officer	_	NOUN	NN	_	4	nsubjpass	_	_
+3	was	_	AUX	VBD	_	4	auxpass	_	_
+4	prosecuted	_	VERB	VBN	_	0	root	_	_
+5	on	_	ADP	IN	_	4	prep	_	_
+6	the	_	DET	DT	_	7	det	_	_
+7	ground	_	NOUN	NN	_	5	pobj	_	_
+8	that	_	SCONJ	IN	_	11	mark	_	_
+9	he	_	PRON	PRP	_	11	nsubj	_	_
+10	had	_	AUX	VBD	_	11	aux	_	_
+11	taken	_	VERB	VBN	_	4	ccomp	_	_
+12	a	_	DET	DT	_	13	det	_	_
+13	bribe	_	NOUN	NN	_	11	dobj	_	_
+14	.	_	PUNCT	.	_	4	punct	_	_
+Q	The officer recieved a money from others.
+A	Y
+
+#	Causality9	She was late because of the heavy traffic .	Causality
+1	She	_	PRON	PRP	_	2	nsubj	_	_
+2	was	_	VERB	VBD	_	0	root	_	_
+3	late	_	ADV	RB	_	2	advmod	_	_
+4	because	_	ADV	RB	_	5	advmod	_	_
+5	of	_	ADP	IN	_	2	prep	_	_
+6	the	_	DET	DT	_	8	det	_	_
+7	heavy	_	ADJ	JJ	_	8	amod	_	_
+8	traffic	_	NOUN	NN	_	5	pobj	_	_
+9	.	_	PUNCT	.	_	2	punct	_	_
+Q	She faced traffic jam.
+A	Y
+
+#	Causality10	He was absent on account of illness .	Causality
+1	He	_	PRON	PRP	_	3	nsubj	_	_
+2	was	_	VERB	VBD	_	3	cop	_	_
+3	absent	_	ADJ	JJ	_	0	root	_	_
+4	on	_	ADP	IN	_	3	prep	_	_
+5	account	_	NOUN	NN	_	4	pobj	_	_
+6	of	_	ADP	IN	_	5	prep	_	_
+7	illness	_	NOUN	NN	_	6	pobj	_	_
+8	.	_	PUNCT	.	_	3	punct	_	_
+Q	He was sick.
+A	Y
+
+#	Compare1	The actor is not so attractive as he used to be .	Compare
+1	The	_	DET	DT	_	2	det	_	_
+2	actor	_	NOUN	NN	_	6	nsubj	_	_
+3	is	_	VERB	VBZ	_	6	cop	_	_
+4	not	_	PART	RB	_	6	neg	_	_
+5	so	_	ADV	RB	_	6	advmod	_	_
+6	attractive	_	ADJ	JJ	_	0	root	_	_
+7	as	_	SCONJ	IN	_	9	mark	_	_
+8	he	_	PRON	PRP	_	9	nsubj	_	_
+9	used	_	VERB	VBD	_	6	advcl	_	_
+10	to	_	PART	TO	_	11	aux	_	_
+11	be	_	VERB	VB	_	9	xcomp	_	_
+12	.	_	PUNCT	.	_	6	punct	_	_
+Q	The actor was more attractive before.
+A	Y
+
+#	Compare2	Mr Brown is not as young as he looks .	Compare
+1	Mr	_	PROPN	NNP	_	2	nn	_	_
+2	Brown	_	PROPN	NNP	_	6	nsubj	_	_
+3	is	_	VERB	VBZ	_	6	cop	_	_
+4	not	_	PART	RB	_	6	neg	_	_
+5	as	_	ADV	RB	_	6	advmod	_	_
+6	young	_	ADJ	JJ	_	0	root	_	_
+7	as	_	SCONJ	IN	_	9	mark	_	_
+8	he	_	PRON	PRP	_	9	nsubj	_	_
+9	looks	_	VERB	VBZ	_	6	advcl	_	_
+10	.	_	PUNCT	.	_	6	punct	_	_
+Q	Mr. Brown is actually older than his appearance.
+A	Y
+
+#	Compare3	A man 's worth lies not so much in what he has as in what he is .	Compare
+1	A	_	DET	DT	_	2	det	_	_
+2	man	_	NOUN	NN	_	4	poss	_	_
+3	's	_	PART	POS	_	2	possessive	_	_
+4	worth	_	NOUN	NN	_	5	nsubj	_	_
+5	lies	_	VERB	VBZ	_	0	root	_	_
+6	not	_	ADV	RB	_	8	neg	_	_
+7	so	_	ADV	RB	_	8	advmod	_	_
+8	much	_	ADJ	JJ	_	5	acomp	_	_
+9	in	_	ADP	IN	_	12	prep	_	_
+10	what	_	PRON	WP	_	9	pobj	_	_
+11	he	_	PRON	PRP	_	12	nsubj	_	_
+12	has	_	VERB	VBZ	_	8	ccomp	_	_
+13	as	_	ADP	IN	_	8	advmod	_	_
+14	in	_	SCONJ	IN	_	13	prep	_	_
+15	what	_	PRON	WP	_	17	dobj	_	_
+16	he	_	PRON	PRP	_	17	nsubj	_	_
+17	is	_	VERB	VBZ	_	14	pcomp	_	_
+18	.	_	PUNCT	.	_	5	punct	_	_
+Q	A man’s worth is money.
+A	N
+
+#	Compare4	This dog is about three-fourths as big as that one .	Compare
+1	This	_	DET	DT	_	2	det	_	_
+2	cat	_	NOUN	NN	_	7	nsubj	_	_
+3	is	_	VERB	VBZ	_	7	cop	_	_
+4	about	_	ADV	RB	_	5	quantmod	_	_
+5	three-fourths	_	NOUN	NNS	_	7	dep	_	_
+6	as	_	ADV	RB	_	7	advmod	_	_
+7	big	_	ADJ	JJ	_	0	root	_	_
+8	as	_	ADP	IN	_	7	prep	_	_
+9	that	_	DET	DT	_	10	det	_	_
+10	dog	_	NOUN	NN	_	8	pobj	_	_
+11	.	_	PUNCT	.	_	7	punct	_	_
+Q	The cat is bigger than the dog.
+A	N
+
+#	Compare5	He is as clever as any student in the school .	Compare
+1	He	_	PRON	PRP	_	4	nsubj	_	_
+2	is	_	VERB	VBZ	_	4	cop	_	_
+3	as	_	ADV	RB	_	4	advmod	_	_
+4	clever	_	ADJ	JJ	_	0	root	_	_
+5	as	_	ADP	IN	_	4	prep	_	_
+6	any	_	DET	DT	_	7	det	_	_
+7	student	_	NOUN	NN	_	5	pobj	_	_
+8	in	_	ADP	IN	_	7	prep	_	_
+9	the	_	DET	DT	_	10	det	_	_
+10	school	_	NOUN	NN	_	8	pobj	_	_
+11	.	_	PUNCT	.	_	4	punct	_	_
+Q	He is so stupid.
+A	N
+
+#	Compare6	He did not so much as say goodbye to me .	Compare
+1	He	_	PRON	PRP	_	7	nsubj	_	_
+2	did	_	AUX	VBD	_	7	aux	_	_
+3	not	_	PART	RB	_	7	neg	_	_
+4	so	_	ADV	RB	_	6	advmod	_	_
+5	much	_	ADV	RB	_	6	advmod	_	_
+6	as	_	ADV	RB	_	7	advmod	_	_
+7	say	_	VERB	VB	_	0	root	_	_
+8	goodbye	_	NOUN	NN	_	7	dobj	_	_
+9	to	_	ADP	TO	_	7	prep	_	_
+10	me	_	PRON	PRP	_	9	pobj	_	_
+11	.	_	PUNCT	.	_	7	punct	_	_
+Q	He was gone without any words.
+A	Y
+
+#	Compare7	Buy as good a dictionary as you can .	Compare
+1	Buy	_	VERB	VB	_	0	root	_	_
+2	as	_	ADP	IN	_	1	prep	_	_
+3	good	_	ADJ	JJ	_	5	amod	_	_
+4	a	_	DET	DT	_	5	det	_	_
+5	dictionary	_	NOUN	NN	_	2	pobj	_	_
+6	as	_	SCONJ	IN	_	8	mark	_	_
+7	you	_	PRON	PRP	_	8	nsubj	_	_
+8	can	_	AUX	MD	_	1	advcl	_	_
+9	.	_	PUNCT	.	_	1	punct	_	_
+Q	You want to buy strange dictoinary.
+A	N
+
+#	Compare8	Shakespeare is as great a writer as ever lived .	Compare
+1	Shakespeare	_	PROPN	NNP	_	4	nsubj	_	_
+2	is	_	VERB	VBZ	_	4	cop	_	_
+3	as	_	ADV	RB	_	4	advmod	_	_
+4	great	_	ADJ	JJ	_	0	root	_	_
+5	a	_	DET	DT	_	6	det	_	_
+6	writer	_	NOUN	NN	_	9	nsubj	_	_
+7	as	_	ADV	RB	_	8	advmod	_	_
+8	ever	_	ADV	RB	_	9	advmod	_	_
+9	lived	_	VERB	VBD	_	4	ccomp	_	_
+10	.	_	PUNCT	.	_	4	punct	_	_
+Q	Shakespeare is not great so much.
+A	N
+
+#	Compare9	I am as poor as ever .	Compare
+1	I	_	PRON	PRP	_	4	nsubj	_	_
+2	am	_	VERB	VBP	_	4	cop	_	_
+3	as	_	ADV	RB	_	4	advmod	_	_
+4	poor	_	ADJ	JJ	_	0	root	_	_
+5	as	_	ADP	IN	_	4	prep	_	_
+6	ever	_	ADV	RB	_	5	pcomp	_	_
+7	.	_	PUNCT	.	_	4	punct	_	_
+Q	Always poor.
+A	Y
+
+#	Compare10	John is the younger of the two .	Compare
+1	John	_	PROPN	NNP	_	4	nsubj	_	_
+2	is	_	VERB	VBZ	_	4	cop	_	_
+3	the	_	DET	DT	_	4	det	_	_
+4	younger	_	ADJ	JJR	_	0	root	_	_
+5	of	_	ADP	IN	_	4	prep	_	_
+6	the	_	DET	DT	_	7	det	_	_
+7	two	_	NUM	CD	_	5	pobj	_	_
+8	.	_	PUNCT	.	_	4	punct	_	_
+Q	John is elder.
+A	N
+
+#	Compare11	He is more kind than honest .	Compare
+1	He	_	PRON	PRP	_	6	nsubj	_	_
+2	is	_	VERB	VBZ	_	6	cop	_	_
+3	more	_	ADV	RBR	_	6	advmod	_	_
+4	kind	_	NOUN	NN	_	5	dep	_	_
+5	than	_	ADP	IN	_	6	advmod	_	_
+6	honest	_	ADJ	JJ	_	0	root	_	_
+7	.	_	PUNCT	.	_	6	punct	_	_
+Q	He is honest.
+A	N
+
+#	Compare12	The older you grow , the more forgetful you become .	Compare
+1	The	_	DET	DT	_	2	det	_	_
+2	older	_	ADJ	JJR	_	4	dep	_	_
+3	you	_	PRON	PRP	_	4	nsubj	_	_
+4	grow	_	VERB	VBP	_	10	advcl	_	_
+5	,	_	PUNCT	,	_	10	punct	_	_
+6	the	_	DET	DT	_	8	det	_	_
+7	more	_	ADV	RBR	_	8	advmod	_	_
+8	forgetful	_	ADJ	JJ	_	10	dep	_	_
+9	you	_	PRON	PRP	_	10	nsubj	_	_
+10	become	_	VERB	VBP	_	0	root	_	_
+11	.	_	PUNCT	.	_	10	punct	_	_
+Q	We do not forget anything even if we get age.
+A	N
+
+#	Compare13	I like him all the better because he is very honest .	Compare
+1	I	_	PRON	PRP	_	2	nsubj	_	_
+2	like	_	VERB	VBP	_	0	root	_	_
+3	him	_	PRON	PRP	_	6	nsubj	_	_
+4	all	_	DET	PDT	_	6	predet	_	_
+5	the	_	DET	DT	_	6	det	_	_
+6	better	_	ADJ	JJR	_	2	xcomp	_	_
+7	because	_	SCONJ	IN	_	11	mark	_	_
+8	he	_	PRON	PRP	_	11	nsubj	_	_
+9	is	_	VERB	VBZ	_	11	cop	_	_
+10	very	_	ADV	RB	_	11	advmod	_	_
+11	honest	_	ADJ	JJ	_	6	dep	_	_
+12	.	_	PUNCT	.	_	2	punct	_	_
+Q	You like him because of his good personality.
+A	Y
+
+#	Compare14	Tom like John none the less because he has many faults .	Compare
+1	Tom	_	PROPN	PRP	_	2	nsubj	_	_
+2	likes	_	VERB	VBP	_	0	root	_	_
+3	John	_	PROPN	PRP	_	4	nsubj	_	_
+4	none	_	VERB	VBD	_	2	ccomp	_	_
+5	the	_	DET	DT	_	6	det	_	_
+6	less	_	ADJ	JJR	_	4	dobj	_	_
+7	because	_	SCONJ	IN	_	9	mark	_	_
+8	he	_	PRON	PRP	_	9	nsubj	_	_
+9	has	_	VERB	VBZ	_	4	advcl	_	_
+10	many	_	ADJ	JJ	_	11	amod	_	_
+11	faults	_	NOUN	NNS	_	9	dobj	_	_
+12	.	_	PUNCT	.	_	2	punct	_	_
+Q	Tom hates John because John always does mistakes.
+A	N
+
+#	Compare15	A good tale is none the worse because it is told twice .	Compare
+1	A	_	DET	DT	_	3	det	_	_
+2	good	_	ADJ	JJ	_	3	amod	_	_
+3	tale	_	NOUN	NN	_	5	nsubj	_	_
+4	is	_	VERB	VBZ	_	5	cop	_	_
+5	none	_	NOUN	NN	_	0	root	_	_
+6	the	_	DET	DT	_	7	det	_	_
+7	worse	_	ADJ	JJR	_	5	amod	_	_
+8	because	_	SCONJ	IN	_	11	mark	_	_
+9	it	_	PRON	PRP	_	11	nsubjpass	_	_
+10	is	_	AUX	VBZ	_	11	auxpass	_	_
+11	told	_	VERB	VBN	_	5	advcl	_	_
+12	twice	_	ADV	RB	_	11	advmod	_	_
+13	.	_	PUNCT	.	_	5	punct	_	_
+Q	Good tale is always fun.
+A	Y
+
+#	Compare16	Alice know better than to leave her child alone in a car .	Compare
+1	Alice	_	PROPN	PRP	_	2	nsubj	_	_
+2	knows	_	VERB	VBP	_	0	root	_	_
+3	better	_	ADJ	JJR	_	4	dep	_	_
+4	than	_	ADP	IN	_	2	advmod	_	_
+5	to	_	PART	TO	_	6	aux	_	_
+6	leave	_	VERB	VB	_	4	dep	_	_
+7	her	_	PRON	PRP$	_	8	poss	_	_
+8	child	_	NOUN	NN	_	6	dobj	_	_
+9	alone	_	ADV	RB	_	6	advmod	_	_
+10	in	_	ADP	IN	_	6	prep	_	_
+11	a	_	DET	DT	_	12	det	_	_
+12	car	_	NOUN	NN	_	10	pobj	_	_
+13	.	_	PUNCT	.	_	2	punct	_	_
+Q	Alice takes care of her child.
+A	Y
+
+#	Compare17	Bob have no more than 500 yen now .	Compare
+1	Bob	_	PROPN	PRP	_	2	nsubj	_	_
+2	has	_	VERB	VBP	_	0	root	_	_
+3	no	_	DET	DT	_	6	quantmod	_	_
+4	more	_	ADJ	JJR	_	6	quantmod	_	_
+5	than	_	ADP	IN	_	6	quantmod	_	_
+6	500	_	NUM	CD	_	7	num	_	_
+7	yen	_	NOUN	NNS	_	2	dobj	_	_
+8	now	_	ADV	RB	_	7	advmod	_	_
+9	.	_	PUNCT	.	_	2	punct	_	_
+Q	Bob has only 500 yen.
+A	Y
+
+#	Compare18	Chris have no less than 50,000 yen today .	Compare
+1	Chris	_	PROPN	PRP	_	2	nsubj	_	_
+2	has	_	VERB	VBP	_	0	root	_	_
+3	no	_	DET	DT	_	8	neg	_	_
+4	less	_	ADJ	JJR	_	5	mwe	_	_
+5	than	_	ADP	IN	_	6	quantmod	_	_
+6	50000	_	NUM	CD	_	8	num	_	_
+7	yen	_	NOUN	NN	_	8	nn	_	_
+8	today	_	NOUN	NN	_	2	tmod	_	_
+9	.	_	PUNCT	.	_	2	punct	_	_
+Q	Chris has much money.
+A	Y
+
+#	Compare19	She has not more than ten dollars on her .	Compare
+1	She	_	PRON	PRP	_	2	nsubj	_	_
+2	has	_	VERB	VBZ	_	0	root	_	_
+3	not	_	ADV	RB	_	7	neg	_	_
+4	more	_	ADJ	JJR	_	5	mwe	_	_
+5	than	_	ADP	IN	_	6	quantmod	_	_
+6	ten	_	NUM	CD	_	7	num	_	_
+7	dollars	_	NOUN	NNS	_	2	dobj	_	_
+8	on	_	ADP	IN	_	7	prep	_	_
+9	her	_	PRON	PRP	_	8	pobj	_	_
+10	.	_	PUNCT	.	_	2	punct	_	_
+Q	She looks like having 12 ~ 15 dollars.
+A	N
+
+#	Compare20	Key has not less than ten computers at home .	Compare
+1	Key	_	PROPN	PRP	_	2	nsubj	_	_
+2	has	_	VERB	VBZ	_	0	root	_	_
+3	not	_	ADV	RB	_	7	neg	_	_
+4	less	_	ADJ	JJR	_	5	mwe	_	_
+5	than	_	ADP	IN	_	6	quantmod	_	_
+6	ten	_	NUM	CD	_	7	num	_	_
+7	computers	_	NOUN	NNS	_	2	dobj	_	_
+8	at	_	ADP	IN	_	7	prep	_	_
+9	home	_	NOUN	NN	_	8	pobj	_	_
+10	.	_	PUNCT	.	_	2	punct	_	_
+Q	Key may have many computers.
+A	Y
+
+#	Compare21	A whale is no more a fish than a horse is .	Compare
+1	A	_	DET	DT	_	2	det	_	_
+2	whale	_	NOUN	NN	_	7	nsubj	_	_
+3	is	_	VERB	VBZ	_	7	cop	_	_
+4	no	_	DET	DT	_	5	neg	_	_
+5	more	_	ADV	RBR	_	7	advmod	_	_
+6	a	_	DET	DT	_	7	det	_	_
+7	fish	_	NOUN	NN	_	0	root	_	_
+8	than	_	SCONJ	IN	_	11	mark	_	_
+9	a	_	DET	DT	_	10	det	_	_
+10	horse	_	NOUN	NN	_	11	nsubj	_	_
+11	is	_	VERB	VBZ	_	7	advcl	_	_
+12	.	_	PUNCT	.	_	7	punct	_	_
+Q	A whale is fish.
+A	N
+
+#	Compare22	A whale is no less a mammal than a horse is .	Compare
+1	A	_	DET	DT	_	2	det	_	_
+2	whale	_	NOUN	NN	_	7	nsubj	_	_
+3	is	_	VERB	VBZ	_	7	cop	_	_
+4	no	_	DET	DT	_	5	neg	_	_
+5	less	_	ADV	RBR	_	7	advmod	_	_
+6	a	_	DET	DT	_	7	det	_	_
+7	mammal	_	NOUN	NN	_	0	root	_	_
+8	than	_	SCONJ	IN	_	11	mark	_	_
+9	a	_	DET	DT	_	10	det	_	_
+10	horse	_	NOUN	NN	_	11	nsubj	_	_
+11	is	_	VERB	VBZ	_	7	advcl	_	_
+12	.	_	PUNCT	.	_	7	punct	_	_
+Q	A whale is mammal.
+A	Y
+
+#	Compare23	Yoko feels happiest when she is listening to the music .	Compare
+1	Yoko	_	PRON	PRP	_	2	nsubj	_	_
+2	feels	_	VERB	VBZ	_	0	root	_	_
+3	happiest	_	ADJ	JJ	_	2	acomp	_	_
+4	when	_	ADV	WRB	_	7	advmod	_	_
+5	she	_	PRON	PRP	_	7	nsubj	_	_
+6	is	_	AUX	VBZ	_	7	aux	_	_
+7	listening	_	VERB	VBG	_	2	advcl	_	_
+8	to	_	ADP	TO	_	7	prep	_	_
+9	the	_	DET	DT	_	10	det	_	_
+10	music	_	NOUN	NN	_	8	pobj	_	_
+11	.	_	PUNCT	.	_	2	punct	_	_
+Q	Yoko loves to listen a music.
+A	Y
+
+#	Compare24	Peter is the second tallest man of the five .	Compare
+1	Peter	_	PROPN	NNP	_	6	nsubj	_	_
+2	is	_	VERB	VBZ	_	6	cop	_	_
+3	the	_	DET	DT	_	6	det	_	_
+4	second	_	ADJ	JJ	_	6	amod	_	_
+5	tallest	_	ADJ	JJS	_	6	amod	_	_
+6	man	_	NOUN	NN	_	0	root	_	_
+7	of	_	ADP	IN	_	6	prep	_	_
+8	the	_	DET	DT	_	9	det	_	_
+9	five	_	NUM	CD	_	7	pobj	_	_
+10	.	_	PUNCT	.	_	6	punct	_	_
+Q	Peter is the tallest man.
+A	N
+
+#	Compare25	Mt.Fuji is the highest mountain in Japan .	Compare
+1	Mt.Fuji	_	PROPN	NNP	_	5	nsubj	_	_
+2	is	_	VERB	VBZ	_	5	cop	_	_
+3	the	_	DET	DT	_	5	det	_	_
+4	highest	_	ADJ	JJS	_	5	amod	_	_
+5	mountain	_	NOUN	NN	_	0	root	_	_
+6	in	_	ADP	IN	_	5	prep	_	_
+7	Japan	_	PROPN	NNP	_	6	pobj	_	_
+8	.	_	PUNCT	.	_	5	punct	_	_
+Q	There are no mountains  which are higher than Mt.Fuji in Japan.
+A	Y
+
+#	Concession1	You must study history even if you do not like it .	Concession
+1	You	_	PRON	PRP	_	3	nsubj	_	_
+2	must	_	AUX	MD	_	3	aux	_	_
+3	study	_	VERB	VB	_	0	root	_	_
+4	history	_	NOUN	NN	_	3	dobj	_	_
+5	even	_	ADV	RB	_	10	advmod	_	_
+6	if	_	SCONJ	IN	_	10	mark	_	_
+7	you	_	PRON	PRP	_	10	nsubj	_	_
+8	do	_	AUX	VBP	_	10	aux	_	_
+9	not	_	PART	RB	_	10	neg	_	_
+10	like	_	VERB	VB	_	3	advcl	_	_
+11	it	_	PRON	PRP	_	10	dobj	_	_
+12	.	_	PUNCT	.	_	3	punct	_	_
+Q	We have to study Mathmatics.
+A	N
+
+#	Concession2	Whether you succeed or fail , you have to do your best .	Concession
+1	Whether	_	SCONJ	IN	_	3	mark	_	_
+2	you	_	PRON	PRP	_	3	nsubj	_	_
+3	succeed	_	VERB	VBP	_	8	advcl	_	_
+4	or	_	CONJ	CC	_	3	cc	_	_
+5	fail	_	VERB	VBP	_	3	conj	_	_
+6	,	_	PUNCT	,	_	8	punct	_	_
+7	you	_	PRON	PRP	_	8	nsubj	_	_
+8	have	_	VERB	VBP	_	0	root	_	_
+9	to	_	PART	TO	_	10	aux	_	_
+10	do	_	VERB	VB	_	8	xcomp	_	_
+11	your	_	PRON	PRP$	_	12	poss	_	_
+12	best	_	ADJ	JJS	_	10	dobj	_	_
+13	.	_	PUNCT	.	_	8	punct	_	_
+Q	It is important to do your best.
+A	Y
+
+#	Concession3	No matter what he may say , I believe his words .	Concession
+1	No	_	DET	DT	_	2	neg	_	_
+2	matter	_	NOUN	NN	_	9	advmod	_	_
+3	what	_	PRON	WP	_	6	dobj	_	_
+4	John	_	PRON	PRP	_	6	nsubj	_	_
+5	may	_	AUX	MD	_	6	aux	_	_
+6	say	_	VERB	VB	_	2	ccomp	_	_
+7	,	_	PUNCT	,	_	9	punct	_	_
+8	Tom	_	PRON	PRP	_	9	nsubj	_	_
+9	believes	_	VERB	VBP	_	0	root	_	_
+10	his	_	PRON	PRP$	_	11	poss	_	_
+11	words	_	NOUN	NNS	_	9	dobj	_	_
+12	.	_	PUNCT	.	_	9	punct	_	_
+Q	Tom trusts John.
+A	Y
+
+#	Concession4	No matter how hard you may try , you can not master French in one month .	Concession
+1	No	_	DET	DT	_	2	neg	_	_
+2	matter	_	NOUN	NN	_	12	advmod	_	_
+3	how	_	ADV	WRB	_	4	advmod	_	_
+4	hard	_	ADJ	JJ	_	7	dep	_	_
+5	you	_	PRON	PRP	_	7	nsubj	_	_
+6	may	_	AUX	MD	_	7	aux	_	_
+7	try	_	VERB	VB	_	2	dep	_	_
+8	,	_	PUNCT	,	_	12	punct	_	_
+9	you	_	PRON	PRP	_	12	nsubj	_	_
+10	can	_	AUX	MD	_	12	aux	_	_
+11	not	_	PART	RB	_	12	neg	_	_
+12	master	_	VERB	VB	_	0	root	_	_
+13	French	_	PROPN	NNP	_	12	dobj	_	_
+14	in	_	ADP	IN	_	13	prep	_	_
+15	one	_	NUM	CD	_	14	pobj	_	_
+16	month	_	NOUN	NN	_	12	tmod	_	_
+17	.	_	PUNCT	.	_	12	punct	_	_
+Q	Learning French takes time.
+A	Y
+
+#	Concession5	Good book as it was , it did not sell well .	Concession
+1	Good	_	ADJ	JJ	_	2	amod	_	_
+2	book	_	NOUN	NN	_	5	dep	_	_
+3	as	_	SCONJ	IN	_	5	mark	_	_
+4	it	_	PRON	PRP	_	5	nsubj	_	_
+5	was	_	VERB	VBD	_	10	advcl	_	_
+6	,	_	PUNCT	,	_	10	punct	_	_
+7	it	_	PRON	PRP	_	10	nsubj	_	_
+8	did	_	AUX	VBD	_	10	aux	_	_
+9	not	_	PART	RB	_	10	neg	_	_
+10	sell	_	VERB	VB	_	0	root	_	_
+11	well	_	ADV	RB	_	10	advmod	_	_
+12	.	_	PUNCT	.	_	10	punct	_	_
+Q	Many people bought the book.
+A	N
+
+#	Concession6	In spite of his poverty , he was very happy .	Concession
+1	In	_	ADP	IN	_	10	prep	_	_
+2	spite	_	NOUN	NN	_	1	pobj	_	_
+3	of	_	ADP	IN	_	2	prep	_	_
+4	his	_	PRON	PRP$	_	5	poss	_	_
+5	poverty	_	NOUN	NN	_	3	pobj	_	_
+6	,	_	PUNCT	,	_	10	punct	_	_
+7	he	_	PRON	PRP	_	10	nsubj	_	_
+8	was	_	VERB	VBD	_	10	cop	_	_
+9	very	_	ADV	RB	_	10	advmod	_	_
+10	happy	_	ADJ	JJ	_	0	root	_	_
+11	.	_	PUNCT	.	_	10	punct	_	_
+Q	He is rich.
+A	N
+
+#	Condition1	Any dress will do provided that it is red .	Condition
+1	Any	_	DET	DT	_	2	det	_	_
+2	dress	_	NOUN	NN	_	5	nsubj	_	_
+3	will	_	AUX	MD	_	5	aux	_	_
+4	do	_	AUX	VB	_	5	aux	_	_
+5	provided	_	VERB	VBN	_	0	root	_	_
+6	that	_	SCONJ	IN	_	9	mark	_	_
+7	it	_	PRON	PRP	_	9	nsubj	_	_
+8	is	_	VERB	VBZ	_	9	cop	_	_
+9	red	_	ADJ	JJ	_	5	ccomp	_	_
+10	.	_	PUNCT	.	_	5	punct	_	_
+Q	Red dress is requested.
+A	Y
+
+#	Condition2	Any book will do so long as it is interesting .	Condition
+1	Any	_	DET	DT	_	2	det	_	_
+2	book	_	NOUN	NN	_	4	nsubj	_	_
+3	will	_	AUX	MD	_	4	aux	_	_
+4	do	_	VERB	VB	_	0	root	_	_
+5	so	_	ADV	RB	_	6	advmod	_	_
+6	long	_	ADV	RB	_	4	advmod	_	_
+7	as	_	SCONJ	IN	_	10	mark	_	_
+8	it	_	PRON	PRP	_	10	nsubj	_	_
+9	is	_	VERB	VBZ	_	10	cop	_	_
+10	interesting	_	ADJ	JJ	_	6	advcl	_	_
+11	.	_	PUNCT	.	_	4	punct	_	_
+Q	Interest is important for book.
+A	Y
+
+#	Condition3	I 'll lend you the money on the condition that you return it within one week .	Condition
+1	Jorge	_	PROPN	PRP	_	3	nsubj	_	_
+2	will	_	AUX	MD	_	3	aux	_	_
+3	lend	_	VERB	VB	_	0	root	_	_
+4	Kay	_	PRON	PRP	_	3	iobj	_	_
+5	the	_	DET	DT	_	6	det	_	_
+6	money	_	NOUN	NN	_	3	dobj	_	_
+7	on	_	ADP	IN	_	6	prep	_	_
+8	the	_	DET	DT	_	9	det	_	_
+9	condition	_	NOUN	NN	_	7	pobj	_	_
+10	that	_	SCONJ	IN	_	12	mark	_	_
+11	Kay	_	PROPN	PRP	_	12	nsubj	_	_
+12	returns	_	VERB	VB	_	3	ccomp	_	_
+13	it	_	PRON	PRP	_	12	dobj	_	_
+14	within	_	ADP	IN	_	12	prep	_	_
+15	one	_	NUM	CD	_	16	num	_	_
+16	week	_	NOUN	NN	_	14	pobj	_	_
+17	.	_	PUNCT	.	_	3	punct	_	_
+Q	Kay can never borrow money from Jorge
+A	N
+
+#	Condition4	Given that it is true , he is not to blame for the accident .	Condition
+1	Given	_	VERB	VBN	_	8	dep	_	_
+2	that	_	SCONJ	IN	_	5	mark	_	_
+3	it	_	PRON	PRP	_	5	nsubj	_	_
+4	is	_	VERB	VBZ	_	5	cop	_	_
+5	truth	_	ADJ	JJ	_	1	pcomp	_	_
+6	,	_	PUNCT	,	_	8	punct	_	_
+7	Carl	_	PROPN	PRP	_	8	nsubj	_	_
+8	is	_	VERB	VBZ	_	0	root	_	_
+9	not	_	PART	RB	_	8	neg	_	_
+10	to	_	PART	TO	_	11	aux	_	_
+11	blame	_	VERB	VB	_	8	xcomp	_	_
+12	for	_	ADP	IN	_	11	prep	_	_
+13	the	_	DET	DT	_	14	det	_	_
+14	accident	_	NOUN	NN	_	12	pobj	_	_
+15	.	_	PUNCT	.	_	8	punct	_	_
+Q	Carl may be criticized for his mistake.
+A	N
+
+#	Condition5	Once you 've started something , do n't leave it half-done .	Condition
+1	Once	_	SCONJ	IN	_	4	mark	_	_
+2	you	_	PRON	PRP	_	4	nsubj	_	_
+3	have	_	AUX	VBP	_	4	aux	_	_
+4	started	_	VERB	VBN	_	9	advcl	_	_
+5	something	_	PRON	NN	_	4	dobj	_	_
+6	,	_	PUNCT	,	_	9	punct	_	_
+7	do	_	AUX	VB	_	9	aux	_	_
+8	not	_	PART	RB	_	9	neg	_	_
+9	leave	_	VERB	VB	_	0	root	_	_
+10	it	_	PRON	PRP	_	11	nsubj	_	_
+11	half-done	_	ADJ	JJ	_	9	xcomp	_	_
+12	.	_	PUNCT	.	_	9	punct	_	_
+Q	Whenever we face something difficult situation, we should quit it immediately.
+A	N
+
+#	Condition6	I will not go to the party unless Tom goes with me .	Condition
+1	Tomas	_	PROPN	PRP	_	4	nsubj	_	_
+2	will	_	AUX	MD	_	4	aux	_	_
+3	not	_	PART	RB	_	4	neg	_	_
+4	go	_	VERB	VB	_	0	root	_	_
+5	to	_	ADP	TO	_	4	prep	_	_
+6	the	_	DET	DT	_	7	det	_	_
+7	party	_	NOUN	NN	_	5	pobj	_	_
+8	unless	_	SCONJ	IN	_	10	mark	_	_
+9	Mary	_	PROPN	NNP	_	10	nsubj	_	_
+10	goes	_	VERB	VBZ	_	4	advcl	_	_
+11	with	_	ADP	IN	_	10	prep	_	_
+12	him	_	PRON	PRP	_	11	pobj	_	_
+13	.	_	PUNCT	.	_	4	punct	_	_
+Q	Tomas and Mary come to the party together if they come.
+A	Y
+
+#	Condition7	Study much harder , or you will fail .	Condition
+1	Study	_	VERB	VBG	_	0	root	_	_
+2	much	_	ADV	RB	_	3	advmod	_	_
+3	harder	_	ADJ	JJR	_	1	acomp	_	_
+4	,	_	PUNCT	,	_	1	punct	_	_
+5	or	_	CONJ	CC	_	1	cc	_	_
+6	you	_	PRON	PRP	_	8	nsubj	_	_
+7	will	_	AUX	MD	_	8	aux	_	_
+8	fail	_	VERB	VB	_	1	conj	_	_
+9	.	_	PUNCT	.	_	1	punct	_	_
+Q	Study is important for avoiding to fail.
+A	Y
+
+#	Condition8	If I knew her phone number , I could call her .	Condition
+1	If	_	SCONJ	IN	_	3	mark	_	_
+2	Tom	_	PROPN	PRP	_	3	nsubj	_	_
+3	knew	_	VERB	VBD	_	10	advcl	_	_
+4	Karen’s	_	PROPN	PRP$	_	6	poss	_	_
+5	phone	_	NOUN	NN	_	6	nn	_	_
+6	number	_	NOUN	NN	_	3	dobj	_	_
+7	,	_	PUNCT	,	_	10	punct	_	_
+8	he	_	PRON	PRP	_	10	nsubj	_	_
+9	could	_	AUX	MD	_	10	aux	_	_
+10	call	_	VERB	VB	_	0	root	_	_
+11	her	_	PRON	PRP	_	10	dobj	_	_
+12	.	_	PUNCT	.	_	10	punct	_	_
+Q	Tom can contact Karen with phone.
+A	N
+
+#	Condition9	If John had left earlier , he would have caught the train .	Condition
+1	If	_	SCONJ	IN	_	4	mark	_	_
+2	John	_	PRON	PRP	_	4	nsubj	_	_
+3	had	_	AUX	VBD	_	4	aux	_	_
+4	left	_	VERB	VBN	_	10	advcl	_	_
+5	earlier	_	ADV	RBR	_	4	advmod	_	_
+6	,	_	PUNCT	,	_	10	punct	_	_
+7	he	_	PRON	PRP	_	10	nsubj	_	_
+8	would	_	AUX	MD	_	10	aux	_	_
+9	have	_	AUX	VB	_	10	aux	_	_
+10	caught	_	VERB	VBN	_	0	root	_	_
+11	the	_	DET	DT	_	12	det	_	_
+12	train	_	NOUN	NN	_	10	dobj	_	_
+13	.	_	PUNCT	.	_	10	punct	_	_
+Q	John could not catch the train.
+A	Y
+
+#	Condition10	If he had taken the bus , he would not be alive now .	Condition
+1	If	_	SCONJ	IN	_	4	mark	_	_
+2	Rick	_	PROPN	PRP	_	4	nsubj	_	_
+3	had	_	AUX	VBD	_	4	aux	_	_
+4	taken	_	VERB	VBN	_	12	advcl	_	_
+5	the	_	DET	DT	_	6	det	_	_
+6	bus	_	NOUN	NN	_	4	dobj	_	_
+7	,	_	PUNCT	,	_	12	punct	_	_
+8	he	_	PRON	PRP	_	12	nsubj	_	_
+9	would	_	AUX	MD	_	12	aux	_	_
+10	not	_	PART	RB	_	12	neg	_	_
+11	be	_	VERB	VB	_	12	cop	_	_
+12	alive	_	ADJ	JJ	_	0	root	_	_
+13	now	_	ADV	RB	_	12	advmod	_	_
+14	.	_	PUNCT	.	_	12	punct	_	_
+Q	Rick comes with bus.
+A	N
+
+#	Condition11	If the sun were to go out , we would all die .	Condition
+1	If	_	SCONJ	IN	_	4	mark	_	_
+2	the	_	DET	DT	_	3	det	_	_
+3	sun	_	NOUN	NN	_	4	nsubj	_	_
+4	were	_	VERB	VBD	_	12	advcl	_	_
+5	to	_	PART	TO	_	6	aux	_	_
+6	go	_	VERB	VB	_	4	xcomp	_	_
+7	out	_	ADP	RP	_	6	prt	_	_
+8	,	_	PUNCT	,	_	12	punct	_	_
+9	we	_	PRON	PRP	_	12	nsubj	_	_
+10	would	_	AUX	MD	_	12	aux	_	_
+11	all	_	ADV	RB	_	12	advmod	_	_
+12	die	_	VERB	VB	_	0	root	_	_
+13	.	_	PUNCT	.	_	12	punct	_	_
+Q	Sun Is need for us to live.
+A	Y
+
+#	Condition12	If it had not been for your help , I could not have succeeded .	Condition
+1	If	_	SCONJ	IN	_	5	mark	_	_
+2	it	_	PRON	PRP	_	5	nsubj	_	_
+3	had	_	AUX	VBD	_	5	aux	_	_
+4	not	_	PART	RB	_	5	neg	_	_
+5	been	_	VERB	VBN	_	14	advcl	_	_
+6	for	_	ADP	IN	_	5	prep	_	_
+7	the	_	PRON	PRP$	_	8	poss	_	_
+8	help	_	NOUN	NN	_	6	pobj	_	_
+9	,	_	PUNCT	,	_	14	punct	_	_
+10	Jorge	_	PROPN	PRP	_	14	nsubj	_	_
+11	could	_	AUX	MD	_	14	aux	_	_
+12	not	_	PART	RB	_	14	neg	_	_
+13	have	_	AUX	VB	_	14	aux	_	_
+14	succeeded	_	VERB	VBN	_	0	root	_	_
+15	.	_	PUNCT	.	_	14	punct	_	_
+Q	Someone helped Jorge.
+A	Y
+
+#	Condition13	Cathy was busy on the day ; otherwise , she would have come to see the concert .	Condition
+1	Cathy	_	PROPN	PRP	_	3	nsubj	_	_
+2	was	_	VERB	VBD	_	3	cop	_	_
+3	busy	_	ADJ	JJ	_	0	root	_	_
+4	on	_	ADP	IN	_	3	prep	_	_
+5	the	_	DET	DT	_	6	det	_	_
+6	day	_	NOUN	NN	_	4	pobj	_	_
+7	;	_	PUNCT	:	_	3	punct	_	_
+8	otherwise	_	ADV	RB	_	13	advmod	_	_
+9	,	_	PUNCT	,	_	13	punct	_	_
+10	he	_	PRON	PRP	_	13	nsubj	_	_
+11	would	_	AUX	MD	_	13	aux	_	_
+12	have	_	AUX	VB	_	13	aux	_	_
+13	come	_	VERB	VBN	_	3	parataxis	_	_
+14	to	_	PART	TO	_	15	aux	_	_
+15	see	_	VERB	VB	_	13	xcomp	_	_
+16	the	_	DET	DT	_	17	det	_	_
+17	concert	_	NOUN	NN	_	15	dobj	_	_
+18	.	_	PUNCT	.	_	3	punct	_	_
+Q	Cathy can come to the concert.
+A	N
+
+#	Condition14	One more step , and Jim would have fallen off the cliff .	Condition
+1	One	_	NUM	CD	_	3	num	_	_
+2	more	_	ADJ	JJR	_	3	amod	_	_
+3	step	_	NOUN	NN	_	0	root	_	_
+4	,	_	PUNCT	,	_	3	punct	_	_
+5	and	_	CONJ	CC	_	3	cc	_	_
+6	Jim	_	PROPN	PRP	_	9	nsubj	_	_
+7	would	_	AUX	MD	_	9	aux	_	_
+8	have	_	AUX	VB	_	9	aux	_	_
+9	fallen	_	VERB	VBN	_	3	dep	_	_
+10	off	_	ADP	RP	_	9	prt	_	_
+11	the	_	DET	DT	_	12	det	_	_
+12	cliff	_	NOUN	NN	_	9	dobj	_	_
+13	.	_	PUNCT	.	_	3	punct	_	_
+Q	Jim was about to fall off the cliff.
+A	Y
+
+#	FormalObj1	Tom found it easy to deceive Rachel .	FormalObj
+1	Tom	_	PROPN	PRP	_	2	nsubj	_	_
+2	found	_	VERB	VBD	_	0	root	_	_
+3	it	_	PRON	PRP	_	4	nsubj	_	_
+4	easy	_	ADJ	JJ	_	2	xcomp	_	_
+5	to	_	PART	TO	_	6	aux	_	_
+6	deceive	_	VERB	VB	_	4	xcomp	_	_
+7	Rachel	_	PROPN	PRP	_	6	dobj	_	_
+8	.	_	PUNCT	.	_	2	punct	_	_
+Q	Rachel seems like naive.
+A	Y
+
+#	FormalObj2	Glen think it important that we should do our best .	FormalObj
+1	Glen	_	PROPN	PRP	_	2	nsubj	_	_
+2	think	_	VERB	VBP	_	0	root	_	_
+3	it	_	PRON	PRP	_	4	nsubj	_	_
+4	important	_	ADJ	JJ	_	2	xcomp	_	_
+5	that	_	SCONJ	IN	_	8	mark	_	_
+6	we	_	PRON	PRP	_	8	nsubj	_	_
+7	should	_	AUX	MD	_	8	aux	_	_
+8	do	_	VERB	VB	_	2	ccomp	_	_
+9	our	_	PRON	PRP$	_	10	poss	_	_
+10	best	_	ADJ	JJS	_	8	dobj	_	_
+11	.	_	PUNCT	.	_	2	punct	_	_
+Q	It is better to stay.
+A	N
+
+#	FormalObj3	We often hear it said that the Japanese are a shy people .	FormalObj
+1	We	_	PRON	PRP	_	3	nsubj	_	_
+2	often	_	ADV	RB	_	3	advmod	_	_
+3	hear	_	VERB	VBP	_	0	root	_	_
+4	it	_	PRON	PRP	_	5	nsubj	_	_
+5	said	_	VERB	VBD	_	3	ccomp	_	_
+6	that	_	SCONJ	IN	_	12	mark	_	_
+7	the	_	DET	DT	_	8	det	_	_
+8	Japanese	_	PROPN	NNPS	_	12	nsubj	_	_
+9	are	_	VERB	VBP	_	12	cop	_	_
+10	a	_	DET	DT	_	12	det	_	_
+11	shy	_	ADJ	JJ	_	12	amod	_	_
+12	people	_	NOUN	NNS	_	5	ccomp	_	_
+13	.	_	PUNCT	.	_	3	punct	_	_
+Q	Chinese are a shy people.
+A	N
+
+#	FormalObj4	I 'll leave it to you to decide which way to go .	FormalObj
+1	Leon	_	PROPN	PRP	_	3	nsubj	_	_
+2	will	_	AUX	MD	_	3	aux	_	_
+3	leave	_	VERB	VB	_	0	root	_	_
+4	it	_	PRON	PRP	_	3	dobj	_	_
+5	to	_	ADP	TO	_	3	prep	_	_
+6	you	_	PRON	PRP	_	5	pobj	_	_
+7	to	_	PART	TO	_	8	aux	_	_
+8	decide	_	VERB	VB	_	3	vmod	_	_
+9	which	_	DET	WDT	_	10	dep	_	_
+10	way	_	NOUN	NN	_	12	advmod	_	_
+11	to	_	PART	TO	_	12	aux	_	_
+12	go	_	VERB	VB	_	8	xcomp	_	_
+13	.	_	PUNCT	.	_	3	punct	_	_
+Q	Leon does not determine where to go.
+A	Y
+
+#	FormalObj5	Pierre thought it useless leaving so early .	FormalObj
+1	Pierre	_	PROPN	PRP	_	2	nsubj	_	_
+2	thought	_	VERB	VBD	_	0	root	_	_
+3	it	_	PRON	PRP	_	5	nsubj	_	_
+4	useless	_	ADJ	JJ	_	5	dep	_	_
+5	leaving	_	VERB	VBG	_	2	xcomp	_	_
+6	so	_	ADV	RB	_	7	advmod	_	_
+7	early	_	ADV	RB	_	5	advmod	_	_
+8	.	_	PUNCT	.	_	2	punct	_	_
+Q	Pierre wanted to go elsewhere as possible as early.
+A	N
+
+#	FormalObj6	I 'd like you to make it clear whether Tom wants to go with me or not .	FormalObj
+1	I	_	PRON	PRP	_	3	nsubj	_	_
+2	would	_	AUX	MD	_	3	aux	_	_
+3	like	_	VERB	VB	_	0	root	_	_
+4	you	_	PRON	PRP	_	3	dobj	_	_
+5	to	_	PART	TO	_	6	aux	_	_
+6	make	_	VERB	VB	_	3	xcomp	_	_
+7	it	_	PRON	PRP	_	8	nsubj	_	_
+8	clear	_	ADJ	JJ	_	6	xcomp	_	_
+9	whether	_	SCONJ	IN	_	11	mark	_	_
+10	Tom	_	PROPN	PRP	_	11	nsubj	_	_
+11	wants	_	VERB	VBP	_	3	ccomp	_	_
+12	to	_	PART	TO	_	13	aux	_	_
+13	go	_	VERB	VB	_	11	xcomp	_	_
+14	with	_	ADP	IN	_	13	prep	_	_
+15	me	_	PRON	PRP	_	14	pobj	_	_
+16	or	_	CONJ	CC	_	11	cc	_	_
+17	not	_	ADV	RB	_	11	conj	_	_
+18	.	_	PUNCT	.	_	3	punct	_	_
+Q	You want for Tom to come with you.
+A	N
+
+#	FormalSubj1	It is impossible for Katy to live on such low wages .	FormalSubj
+1	It	_	PRON	PRP	_	3	nsubj	_	_
+2	is	_	VERB	VBZ	_	3	cop	_	_
+3	impossible	_	ADJ	JJ	_	0	root	_	_
+4	for	_	ADP	IN	_	3	prep	_	_
+5	Katy	_	PROPN	PRP	_	4	pobj	_	_
+6	to	_	PART	TO	_	7	aux	_	_
+7	live	_	VERB	VB	_	3	xcomp	_	_
+8	on	_	ADP	IN	_	7	prep	_	_
+9	such	_	ADJ	JJ	_	11	amod	_	_
+10	low	_	ADJ	JJ	_	11	amod	_	_
+11	wages	_	NOUN	NNS	_	8	pobj	_	_
+12	.	_	PUNCT	.	_	3	punct	_	_
+Q	Katy can live without good salary.
+A	N
+
+#	FormalSubj2	It took Lucas three hours to finish his homework .	FormalSubj
+1	It	_	PRON	PRP	_	2	nsubj	_	_
+2	took	_	VERB	VBD	_	0	root	_	_
+3	Lucas	_	PROPN	PRP	_	2	iobj	_	_
+4	three	_	NUM	CD	_	5	num	_	_
+5	hours	_	NOUN	NNS	_	2	dobj	_	_
+6	to	_	PART	TO	_	7	aux	_	_
+7	finish	_	VERB	VB	_	2	vmod	_	_
+8	his	_	PRON	PRP$	_	9	poss	_	_
+9	homework	_	NOUN	NN	_	7	dobj	_	_
+10	.	_	PUNCT	.	_	2	punct	_	_
+Q	Lucas have done his homework within a hour.
+A	N
+
+#	FormalSubj3	It cost Leon thirty thousand yen to have his car repaired .	FormalSubj
+1	It	_	PRON	PRP	_	2	nsubj	_	_
+2	cost	_	VERB	VBD	_	0	root	_	_
+3	Leon	_	PROPN	PRP	_	2	iobj	_	_
+4	thirty	_	NUM	CD	_	6	num	_	_
+5	thousand	_	NUM	CD	_	6	num	_	_
+6	yen	_	NOUN	NNS	_	2	dobj	_	_
+7	to	_	PART	TO	_	8	aux	_	_
+8	have	_	VERB	VB	_	2	vmod	_	_
+9	his	_	PRON	PRP$	_	10	poss	_	_
+10	car	_	NOUN	NN	_	8	dobj	_	_
+11	repaired	_	VERB	VBN	_	10	vmod	_	_
+12	.	_	PUNCT	.	_	2	punct	_	_
+Q	30,000 yen was needed to repair Leon’s car.
+A	Y
+
+#	FormalSubj4	It was careless of you to leave your umbrella in the bus .	FormalSubj
+1	It	_	PRON	PRP	_	3	nsubj	_	_
+2	was	_	VERB	VBD	_	3	cop	_	_
+3	careless	_	ADJ	JJ	_	0	root	_	_
+4	of	_	ADP	IN	_	3	prep	_	_
+5	you	_	PRON	PRP	_	4	pobj	_	_
+6	to	_	PART	TO	_	7	aux	_	_
+7	leave	_	VERB	VB	_	3	xcomp	_	_
+8	your	_	PRON	PRP$	_	9	poss	_	_
+9	umbrella	_	NOUN	NN	_	7	dobj	_	_
+10	in	_	ADP	IN	_	7	prep	_	_
+11	the	_	DET	DT	_	12	det	_	_
+12	bus	_	NOUN	NN	_	10	pobj	_	_
+13	.	_	PUNCT	.	_	3	punct	_	_
+Q	You forgot to take your umbrella when you got off the bus.
+A	Y
+
+#	FormalSubj5	It is necessary that Cathy should go to Bob as soon as possible .	FormalSubj
+1	It	_	PRON	PRP	_	3	nsubj	_	_
+2	is	_	VERB	VBZ	_	3	cop	_	_
+3	necessary	_	ADJ	JJ	_	0	root	_	_
+4	that	_	SCONJ	IN	_	7	mark	_	_
+5	Cathy	_	PROPN	PRP	_	7	nsubj	_	_
+6	should	_	AUX	MD	_	7	aux	_	_
+7	go	_	VERB	VB	_	3	ccomp	_	_
+8	to	_	ADP	TO	_	7	prep	_	_
+9	Bob	_	PROPN	PRP	_	8	pobj	_	_
+10	as	_	SCONJ	IN	_	13	mark	_	_
+11	soon	_	ADV	RB	_	13	advmod	_	_
+12	as	_	ADV	RB	_	13	advmod	_	_
+13	possible	_	ADJ	JJ	_	7	advcl	_	_
+14	.	_	PUNCT	.	_	3	punct	_	_
+Q	Cathy do not need to meet Bob.
+A	N
+
+#	FormalSubj6	It does not matter whether Lee agree with me or not .	FormalSubj
+1	It	_	PRON	PRP	_	4	nsubj	_	_
+2	does	_	AUX	VBZ	_	4	aux	_	_
+3	not	_	PART	RB	_	4	neg	_	_
+4	matter	_	VERB	VB	_	0	root	_	_
+5	whether	_	SCONJ	IN	_	7	mark	_	_
+6	Lee	_	PROPN	PRP	_	7	nsubj	_	_
+7	agree	_	VERB	VBP	_	4	ccomp	_	_
+8	with	_	ADP	IN	_	7	prep	_	_
+9	me	_	PRON	PRP	_	8	pobj	_	_
+10	or	_	CONJ	CC	_	7	cc	_	_
+11	not	_	ADV	RB	_	7	conj	_	_
+12	.	_	PUNCT	.	_	4	punct	_	_
+Q	Lee’s opinion will be ignored.
+A	Y
+
+#	FormalSubj7	Just because his salary is high , it does n't follow that he is competent .	FormalSubj
+1	Just	_	ADV	RB	_	6	advmod	_	_
+2	because	_	SCONJ	IN	_	6	mark	_	_
+3	his	_	PRON	PRP$	_	4	poss	_	_
+4	salary	_	NOUN	NN	_	6	nsubj	_	_
+5	is	_	VERB	VBZ	_	6	cop	_	_
+6	high	_	ADJ	JJ	_	11	advcl	_	_
+7	,	_	PUNCT	,	_	11	punct	_	_
+8	it	_	PRON	PRP	_	11	nsubj	_	_
+9	does	_	AUX	VBZ	_	11	aux	_	_
+10	not	_	PART	RB	_	11	neg	_	_
+11	follow	_	VERB	VB	_	0	root	_	_
+12	that	_	SCONJ	IN	_	15	mark	_	_
+13	he	_	PRON	PRP	_	15	nsubj	_	_
+14	is	_	VERB	VBZ	_	15	cop	_	_
+15	competent	_	ADJ	JJ	_	11	ccomp	_	_
+16	.	_	PUNCT	.	_	11	punct	_	_
+Q	Salary always correlates with the person’s skill.
+A	N
+
+#	FormalSubj8	It matters little when Tom will finish the job .	FormalSubj
+1	It	_	PRON	PRP	_	2	nsubj	_	_
+2	matters	_	VERB	VBZ	_	0	root	_	_
+3	little	_	ADJ	JJ	_	2	acomp	_	_
+4	when	_	ADV	WRB	_	7	advmod	_	_
+5	Tom	_	PROPN	PRP	_	7	nsubj	_	_
+6	will	_	AUX	MD	_	7	aux	_	_
+7	finish	_	VERB	VB	_	2	advcl	_	_
+8	the	_	DET	DT	_	9	det	_	_
+9	job	_	NOUN	NN	_	7	dobj	_	_
+10	.	_	PUNCT	.	_	2	punct	_	_
+Q	Tom’s progress does not affect on anything.
+A	Y
+
+#	FormalSubj9	It occurred to Melissa that Chris had been seriously ill .	FormalSubj
+1	It	_	PRON	PRP	_	2	nsubj	_	_
+2	occurred	_	VERB	VBD	_	0	root	_	_
+3	to	_	ADP	TO	_	2	prep	_	_
+4	Melissa	_	PROPN	PRP	_	3	pobj	_	_
+5	that	_	SCONJ	IN	_	10	mark	_	_
+6	Chris	_	PROPN	PRP	_	10	nsubj	_	_
+7	had	_	AUX	VBD	_	10	aux	_	_
+8	been	_	VERB	VBN	_	10	cop	_	_
+9	seriously	_	ADV	RB	_	10	advmod	_	_
+10	ill	_	ADJ	JJ	_	2	ccomp	_	_
+11	.	_	PUNCT	.	_	2	punct	_	_
+Q	Mellisa had not thought about his condition very seriously before then.
+A	Y
+
+#	FormalSubj10	From this evidence , it follows that John’s theory is wrong .	FormalSubj
+1	From	_	ADP	IN	_	6	prep	_	_
+2	this	_	DET	DT	_	3	det	_	_
+3	evidence	_	NOUN	NN	_	1	pobj	_	_
+4	,	_	PUNCT	,	_	6	punct	_	_
+5	it	_	PRON	PRP	_	6	nsubj	_	_
+6	follows	_	VERB	VBZ	_	0	root	_	_
+7	that	_	SCONJ	IN	_	11	mark	_	_
+8	John’s	_	PROPN	PRP$	_	9	poss	_	_
+9	theory	_	NOUN	NN	_	11	nsubj	_	_
+10	is	_	VERB	VBZ	_	11	cop	_	_
+11	wrong	_	ADJ	JJ	_	6	ccomp	_	_
+12	.	_	PUNCT	.	_	6	punct	_	_
+Q	The evidence supports John’s theory.
+A	N
+
+#	FormalSubj11	It is true Lucas is very rich , but he is stingy .	FormalSubj
+1	It	_	PRON	PRP	_	3	nsubj	_	_
+2	is	_	VERB	VBZ	_	3	cop	_	_
+3	sure	_	ADJ	JJ	_	0	root	_	_
+4	Lucas	_	PROPN	PRP	_	7	nsubj	_	_
+5	is	_	VERB	VBZ	_	7	cop	_	_
+6	very	_	ADV	RB	_	7	advmod	_	_
+7	rich	_	ADJ	JJ	_	3	ccomp	_	_
+8	,	_	PUNCT	,	_	3	punct	_	_
+9	but	_	CONJ	CC	_	3	cc	_	_
+10	he	_	PRON	PRP	_	12	nsubj	_	_
+11	is	_	VERB	VBZ	_	12	cop	_	_
+12	stingy	_	ADJ	JJ	_	3	conj	_	_
+13	.	_	PUNCT	.	_	3	punct	_	_
+Q	Lucas has much money.
+A	Y
+
+#	InfinitiveAdverb1	This bag is too heavy for me to carry .	InfinitiveAdverb
+1	This	_	DET	DT	_	2	det	_	_
+2	bag	_	NOUN	NN	_	5	nsubj	_	_
+3	is	_	VERB	VBZ	_	5	cop	_	_
+4	too	_	ADV	RB	_	5	advmod	_	_
+5	heavy	_	ADJ	JJ	_	0	root	_	_
+6	for	_	ADP	IN	_	5	prep	_	_
+7	me	_	PRON	PRP	_	6	pobj	_	_
+8	to	_	PART	TO	_	9	aux	_	_
+9	carry	_	VERB	VB	_	5	xcomp	_	_
+10	.	_	PUNCT	.	_	5	punct	_	_
+Q	The bag is not heavy so much.
+A	N
+
+#	InfinitiveAdverb2	Rick was so kind as to give me a ride to the station .	InfinitiveAdverb
+1	Rick	_	PROPN	PRP	_	2	nsubj	_	_
+2	was	_	VERB	VBD	_	0	root	_	_
+3	so	_	ADV	RB	_	5	advmod	_	_
+4	kind	_	ADV	RB	_	5	advmod	_	_
+5	as	_	ADV	RB	_	2	advmod	_	_
+6	to	_	PART	TO	_	7	aux	_	_
+7	give	_	VERB	VB	_	2	xcomp	_	_
+8	me	_	PRON	PRP	_	7	iobj	_	_
+9	a	_	DET	DT	_	10	det	_	_
+10	ride	_	NOUN	NN	_	7	dobj	_	_
+11	to	_	ADP	TO	_	10	prep	_	_
+12	the	_	DET	DT	_	13	det	_	_
+13	station	_	NOUN	NN	_	11	pobj	_	_
+14	.	_	PUNCT	.	_	2	punct	_	_
+Q	Rick took you to the airport.
+A	N
+
+#	InfinitiveAdverb3	Bob started early so as to be in time for class .	InfinitiveAdverb
+1	Bob	_	PRON	PRP	_	2	nsubj	_	_
+2	started	_	VERB	VBD	_	0	root	_	_
+3	early	_	ADV	RB	_	5	advmod	_	_
+4	so	_	ADV	RB	_	5	advmod	_	_
+5	as	_	ADV	RB	_	2	advmod	_	_
+6	to	_	PART	TO	_	7	aux	_	_
+7	be	_	VERB	VB	_	2	xcomp	_	_
+8	in	_	ADP	IN	_	7	prep	_	_
+9	time	_	NOUN	NN	_	8	pobj	_	_
+10	for	_	ADP	IN	_	9	prep	_	_
+11	class	_	NOUN	NN	_	10	pobj	_	_
+12	.	_	PUNCT	.	_	2	punct	_	_
+Q	Because of class, Bob left early.
+A	Y
+
+#	InfinitiveAdverb4	They were relieved to know their son was safe .	InfinitiveAdverb
+1	They	_	PRON	PRP	_	3	nsubjpass	_	_
+2	were	_	AUX	VBD	_	3	auxpass	_	_
+3	relieved	_	VERB	VBN	_	0	root	_	_
+4	to	_	PART	TO	_	5	aux	_	_
+5	know	_	VERB	VB	_	3	xcomp	_	_
+6	their	_	PRON	PRP$	_	7	poss	_	_
+7	son	_	NOUN	NN	_	9	nsubj	_	_
+8	was	_	VERB	VBD	_	9	cop	_	_
+9	safe	_	ADJ	JJ	_	5	ccomp	_	_
+10	.	_	PUNCT	.	_	3	punct	_	_
+Q	The son is still in trouble.
+A	N
+
+#	InfinitiveAdverb6	Mary grew up to be a teacher .	InfinitiveAdverb
+1	Mary	_	PROPN	PRP	_	2	nsubj	_	_
+2	grew	_	VERB	VBD	_	0	root	_	_
+3	up	_	ADP	RP	_	2	prt	_	_
+4	to	_	PART	TO	_	7	aux	_	_
+5	be	_	VERB	VB	_	7	cop	_	_
+6	a	_	DET	DT	_	7	det	_	_
+7	teacher	_	NOUN	NN	_	2	xcomp	_	_
+8	.	_	PUNCT	.	_	2	punct	_	_
+Q	Mary’s current job is teacher.
+A	Y
+
+#	InfinitiveAdverb7	Rick awoke to find herself in a hospital .	InfinitiveAdverb
+1	Rick	_	PROPN	PRP	_	2	nsubj	_	_
+2	awoke	_	VERB	VBD	_	0	root	_	_
+3	to	_	PART	TO	_	4	aux	_	_
+4	find	_	VERB	VB	_	2	xcomp	_	_
+5	herself	_	PRON	PRP	_	4	dobj	_	_
+6	in	_	ADP	IN	_	4	prep	_	_
+7	a	_	DET	DT	_	8	det	_	_
+8	hospital	_	NOUN	NN	_	6	pobj	_	_
+9	.	_	PUNCT	.	_	2	punct	_	_
+Q	Rick was in the hospital when he realized it.
+A	Y
+
+#	InfinitiveAdverb8	Rose hurried to the station only to miss the train .	InfinitiveAdverb
+1	Rose	_	PROPN	PRP	_	2	nsubj	_	_
+2	hurried	_	VERB	VBN	_	0	root	_	_
+3	to	_	ADP	TO	_	2	prep	_	_
+4	the	_	DET	DT	_	5	det	_	_
+5	station	_	NOUN	NN	_	3	pobj	_	_
+6	only	_	ADV	RB	_	5	advmod	_	_
+7	to	_	PART	TO	_	8	aux	_	_
+8	miss	_	VERB	VB	_	2	xcomp	_	_
+9	the	_	DET	DT	_	10	det	_	_
+10	train	_	NOUN	NN	_	8	dobj	_	_
+11	.	_	PUNCT	.	_	2	punct	_	_
+Q	Rose could catch the train.
+A	N
+
+#	InfinitiveAdverb9	This river is dangerous to swim in .	InfinitiveAdverb
+1	This	_	DET	DT	_	2	det	_	_
+2	river	_	NOUN	NN	_	4	nsubj	_	_
+3	is	_	VERB	VBZ	_	4	cop	_	_
+4	dangerous	_	ADJ	JJ	_	0	root	_	_
+5	to	_	PART	TO	_	6	aux	_	_
+6	swim	_	VERB	VB	_	4	xcomp	_	_
+7	in	_	ADP	RP	_	6	prt	_	_
+8	.	_	PUNCT	.	_	4	punct	_	_
+Q	The river is dangerous for fishing.
+A	N
+
+#	InfinitiveNoun1	It is impossible to master English in a month .	InfinitiveNoun
+1	It	_	PRON	PRP	_	3	nsubj	_	_
+2	is	_	VERB	VBZ	_	3	cop	_	_
+3	impossible	_	ADJ	JJ	_	0	root	_	_
+4	to	_	PART	TO	_	5	aux	_	_
+5	master	_	VERB	VB	_	3	xcomp	_	_
+6	English	_	PROPN	NNP	_	5	dobj	_	_
+7	in	_	ADP	IN	_	6	prep	_	_
+8	a	_	DET	DT	_	9	det	_	_
+9	month	_	NOUN	NN	_	7	pobj	_	_
+10	.	_	PUNCT	.	_	3	punct	_	_
+Q	Every one can master English in a month.
+A	N
+
+#	InfinitiveNoun2	I found it impossible to do the job in a day .	InfinitiveNoun
+1	Kate	_	PROPN	PRP	_	2	nsubj	_	_
+2	found	_	VERB	VBD	_	0	root	_	_
+3	it	_	PRON	PRP	_	4	nsubj	_	_
+4	impossible	_	ADJ	JJ	_	2	xcomp	_	_
+5	to	_	PART	TO	_	6	aux	_	_
+6	do	_	VERB	VB	_	4	xcomp	_	_
+7	the	_	DET	DT	_	8	det	_	_
+8	job	_	NOUN	NN	_	6	dobj	_	_
+9	in	_	ADP	IN	_	8	prep	_	_
+10	a	_	DET	DT	_	11	det	_	_
+11	day	_	NOUN	NN	_	9	pobj	_	_
+12	.	_	PUNCT	.	_	2	punct	_	_
+Q	Kate gave up to finish the job in a day.
+A	Y
+
+#	InfinitiveNoun3	Peter was thinking about what to do next .	InfinitiveNoun
+1	Peter	_	PROPN	PRP	_	3	nsubj	_	_
+2	was	_	AUX	VBD	_	3	aux	_	_
+3	thinking	_	VERB	VBG	_	0	root	_	_
+4	about	_	SCONJ	IN	_	3	prep	_	_
+5	what	_	PRON	WP	_	7	nsubj	_	_
+6	to	_	PART	TO	_	7	aux	_	_
+7	do	_	VERB	VB	_	4	pcomp	_	_
+8	next	_	ADJ	JJ	_	7	advmod	_	_
+9	.	_	PUNCT	.	_	3	punct	_	_
+Q	Peter thought what he should have done at that time.
+A	N
+
+#	InfinitiveSVOC1	Tom have heard it said that honesty is the best policy .	InfinitiveSVOC
+1	Tom	_	PROPN	PRP	_	3	nsubj	_	_
+2	has	_	AUX	VBP	_	3	aux	_	_
+3	heard	_	VERB	VBN	_	0	root	_	_
+4	it	_	PRON	PRP	_	5	nsubj	_	_
+5	said	_	VERB	VBD	_	3	ccomp	_	_
+6	that	_	SCONJ	IN	_	11	mark	_	_
+7	honesty	_	NOUN	NN	_	11	nsubj	_	_
+8	is	_	VERB	VBZ	_	11	cop	_	_
+9	the	_	DET	DT	_	11	det	_	_
+10	best	_	ADJ	JJS	_	11	amod	_	_
+11	policy	_	NOUN	NN	_	5	ccomp	_	_
+12	.	_	PUNCT	.	_	3	punct	_	_
+Q	Honesty is good way.
+A	Y
+
+#	InfinitiveSVOC2	We listened to Bob playing the piano .	InfinitiveSVOC
+1	We	_	PRON	PRP	_	2	nsubj	_	_
+2	listened	_	VERB	VBD	_	0	root	_	_
+3	to	_	ADP	TO	_	2	prep	_	_
+4	Bob	_	PRON	PRP	_	5	nsubj	_	_
+5	playing	_	VERB	VBG	_	3	pcomp	_	_
+6	the	_	DET	DT	_	7	det	_	_
+7	piano	_	NOUN	NN	_	5	dobj	_	_
+8	.	_	PUNCT	.	_	2	punct	_	_
+Q	Bob played violin.
+A	N
+
+#	InfinitiveSVOC3	We had/got a flat tire repaired .	InfinitiveSVOC
+1	We	_	PRON	PRP	_	2	nsubj	_	_
+2	had	_	VERB	VBP	_	0	root	_	_
+3	a	_	DET	DT	_	5	det	_	_
+4	flat	_	ADJ	JJ	_	5	amod	_	_
+5	tire	_	NOUN	NN	_	2	dobj	_	_
+6	repaired	_	VERB	VBN	_	5	vmod	_	_
+7	.	_	PUNCT	.	_	2	punct	_	_
+Q	A tire was broken.
+A	Y
+
+#	InfinitiveSVOC4	I had/got my bicycle stolen .	InfinitiveSVOC
+1	I	_	PRON	PRP	_	2	nsubj	_	_
+2	got	_	VERB	VBP	_	0	root	_	_
+3	my	_	PRON	PRP$	_	4	poss	_	_
+4	bicycle	_	NOUN	NN	_	2	dobj	_	_
+5	stolen	_	VERB	VBN	_	4	vmod	_	_
+6	.	_	PUNCT	.	_	2	punct	_	_
+Q	Your car was stolen.
+A	N
+
+#	InfinitiveSVOC5	Linda caught him cheating in the exam .	InfinitiveSVOC
+1	Linda	_	PROPN	PRP	_	2	nsubj	_	_
+2	caught	_	VERB	VBD	_	0	root	_	_
+3	him	_	PRON	PRP	_	4	nsubj	_	_
+4	cheating	_	VERB	VBG	_	2	dep	_	_
+5	in	_	ADP	IN	_	4	prep	_	_
+6	the	_	DET	DT	_	7	det	_	_
+7	exam	_	NOUN	NN	_	5	pobj	_	_
+8	.	_	PUNCT	.	_	2	punct	_	_
+Q	Linda saw someone was cheating.
+A	Y
+
+#	InfinitiveSVOC6	Kyle kept his boss informed of the project .	InfinitiveSVOC
+1	Kyle	_	PROPN	PRP	_	2	nsubj	_	_
+2	kept	_	VERB	VBD	_	0	root	_	_
+3	his	_	PRON	PRP$	_	4	poss	_	_
+4	boss	_	NOUN	NN	_	2	dobj	_	_
+5	informed	_	VERB	VBN	_	4	vmod	_	_
+6	of	_	ADP	IN	_	5	prep	_	_
+7	the	_	DET	DT	_	8	det	_	_
+8	project	_	NOUN	NN	_	6	pobj	_	_
+9	.	_	PUNCT	.	_	2	punct	_	_
+Q	Kyle kept his girlfriend.
+A	N
+
+#	InfinitiveSVOC7	Jorge left the matter unsaid .	InfinitiveSVOC
+1	Jorge	_	PROPN	PRP	_	2	nsubj	_	_
+2	left	_	VERB	VBD	_	0	root	_	_
+3	the	_	DET	DT	_	4	det	_	_
+4	matter	_	NOUN	NN	_	5	nsubj	_	_
+5	unsaid	_	VERB	VBD	_	2	ccomp	_	_
+6	.	_	PUNCT	.	_	2	punct	_	_
+Q	Jorge could not keep the matter secreat.
+A	N
+
+#	InfinitiveSVOC8	Ron made it known that he had no intention of marrying Katy .	InfinitiveSVOC
+1	Ron	_	PROPN	PRP	_	2	nsubj	_	_
+2	made	_	VERB	VBD	_	0	root	_	_
+3	it	_	PRON	PRP	_	4	nsubj	_	_
+4	known	_	VERB	VBN	_	2	ccomp	_	_
+5	that	_	SCONJ	IN	_	7	mark	_	_
+6	he	_	PRON	PRP	_	7	nsubj	_	_
+7	had	_	VERB	VBD	_	4	ccomp	_	_
+8	no	_	DET	DT	_	9	neg	_	_
+9	intention	_	NOUN	NN	_	7	dobj	_	_
+10	of	_	SCONJ	IN	_	9	prep	_	_
+11	marrying	_	VERB	VBG	_	10	pcomp	_	_
+12	Katy	_	PROPN	PRP	_	11	dobj	_	_
+13	.	_	PUNCT	.	_	2	punct	_	_
+Q	Ron does not mind marrying Katy.
+A	Y
+
+#	InfinitiveSturcturePhrase1	Not knowing what to do , John remained silent .	InfinitiveStructurePhrase
+1	Not	_	ADV	RB	_	2	neg	_	_
+2	knowing	_	VERB	VBG	_	8	vmod	_	_
+3	what	_	PRON	WP	_	5	nsubj	_	_
+4	to	_	PART	TO	_	5	aux	_	_
+5	do	_	VERB	VB	_	2	ccomp	_	_
+6	,	_	PUNCT	,	_	8	punct	_	_
+7	John	_	PROPN	PRP	_	8	nsubj	_	_
+8	remained	_	VERB	VBD	_	0	root	_	_
+9	silent	_	ADJ	JJ	_	8	acomp	_	_
+10	.	_	PUNCT	.	_	8	punct	_	_
+Q	John said nothing because he is not sure what he have to do.
+A	Y
+
+#	InfinitiveSturcturePhrase2	Written in easy English , this book is suitable for beginners .	InfinitiveStructurePhrase
+1	Written	_	VERB	VBN	_	9	vmod	_	_
+2	in	_	ADP	IN	_	1	prep	_	_
+3	easy	_	ADJ	JJ	_	4	amod	_	_
+4	English	_	PROPN	NNP	_	2	pobj	_	_
+5	,	_	PUNCT	,	_	9	punct	_	_
+6	this	_	DET	DT	_	7	det	_	_
+7	book	_	NOUN	NN	_	9	nsubj	_	_
+8	is	_	VERB	VBZ	_	9	cop	_	_
+9	suitable	_	ADJ	JJ	_	0	root	_	_
+10	for	_	ADP	IN	_	9	prep	_	_
+11	beginners	_	NOUN	NNS	_	10	pobj	_	_
+12	.	_	PUNCT	.	_	9	punct	_	_
+Q	The book is not suitable for a person using English as a second language.
+A	N
+
+#	InfinitiveSturcturePhrase3	Seen from the sky , the island looks like a human face .	InfinitiveStructurePhrase
+1	Seen	_	VERB	VBN	_	8	vmod	_	_
+2	from	_	ADP	IN	_	1	prep	_	_
+3	the	_	DET	DT	_	4	det	_	_
+4	sky	_	NOUN	NN	_	2	pobj	_	_
+5	,	_	PUNCT	,	_	8	punct	_	_
+6	the	_	DET	DT	_	7	det	_	_
+7	island	_	NOUN	NN	_	8	nsubj	_	_
+8	looks	_	VERB	VBZ	_	0	root	_	_
+9	like	_	ADP	IN	_	8	prep	_	_
+10	a	_	DET	DT	_	12	det	_	_
+11	human	_	ADJ	JJ	_	12	amod	_	_
+12	face	_	NOUN	NN	_	9	pobj	_	_
+13	.	_	PUNCT	.	_	8	punct	_	_
+Q	The appearance of the island is similar with human face.
+A	Y
+
+#	InfinitiveSturcturePhrase4	There being nothing more to do , Tom continued playing cards .	InfinitiveStructurePhrase
+1	There	_	PRON	EX	_	2	expl	_	_
+2	being	_	VERB	VBG	_	9	vmod	_	_
+3	nothing	_	PRON	NN	_	2	acomp	_	_
+4	more	_	ADJ	JJR	_	3	dep	_	_
+5	to	_	PART	TO	_	6	aux	_	_
+6	do	_	VERB	VB	_	3	xcomp	_	_
+7	,	_	PUNCT	,	_	9	punct	_	_
+8	Tom	_	PROPN	PRP	_	9	nsubj	_	_
+9	continued	_	VERB	VBD	_	0	root	_	_
+10	playing	_	VERB	VBG	_	9	xcomp	_	_
+11	cards	_	NOUN	NNS	_	10	dobj	_	_
+12	.	_	PUNCT	.	_	9	punct	_	_
+Q	Tom played cards because he was bored.
+A	Y
+
+#	InfinitiveSturcturePhrase5	All things considered , Rose is a very excellent girl .	InfinitiveStructurePhrase
+1	All	_	DET	DT	_	2	det	_	_
+2	things	_	NOUN	NNS	_	3	nsubj	_	_
+3	considered	_	VERB	VBD	_	10	ccomp	_	_
+4	,	_	PUNCT	,	_	10	punct	_	_
+5	Rose	_	PROPN	PRP	_	10	nsubj	_	_
+6	is	_	VERB	VBZ	_	10	cop	_	_
+7	a	_	DET	DT	_	10	det	_	_
+8	very	_	ADV	RB	_	9	advmod	_	_
+9	excellent	_	ADJ	JJ	_	10	amod	_	_
+10	girl	_	NOUN	NN	_	0	root	_	_
+11	.	_	PUNCT	.	_	10	punct	_	_
+Q	Rose is wonderful in either way.
+A	Y
+
+#	InfinitiveSturcturePhrase6	Maggie was listening to the music , with her eyes closed .	InfinitiveStructurePhrase
+1	Maggie	_	PROPN	PRP	_	3	nsubj	_	_
+2	was	_	AUX	VBD	_	3	aux	_	_
+3	listening	_	VERB	VBG	_	0	root	_	_
+4	to	_	ADP	TO	_	3	prep	_	_
+5	the	_	DET	DT	_	6	det	_	_
+6	music	_	NOUN	NN	_	4	pobj	_	_
+7	,	_	PUNCT	,	_	3	punct	_	_
+8	with	_	ADP	IN	_	3	prep	_	_
+9	her	_	PRON	PRP$	_	10	poss	_	_
+10	eyes	_	NOUN	NNS	_	8	pobj	_	_
+11	closed	_	VERB	VBN	_	10	vmod	_	_
+12	.	_	PUNCT	.	_	3	punct	_	_
+Q	Maggie was listening a radio.
+A	N
+
+#	InfinitiveSturcturePhrase7	Henry was studying , with the radio on .	InfinitiveStructurePhrase
+1	Henry	_	PROPN	PRP	_	3	nsubj	_	_
+2	was	_	AUX	VBD	_	3	aux	_	_
+3	studying	_	VERB	VBG	_	0	root	_	_
+4	,	_	PUNCT	,	_	3	punct	_	_
+5	with	_	ADP	IN	_	3	prep	_	_
+6	the	_	DET	DT	_	7	det	_	_
+7	radio	_	NOUN	NN	_	5	pobj	_	_
+8	on	_	ADP	IN	_	3	prep	_	_
+9	.	_	PUNCT	.	_	3	punct	_	_
+Q	Henry studied with a radio.
+A	Y
+
+#	InfinitiveVerb1	Sasha never goes out without losing her umbrella .	InfinitiveVerb
+1	Sasha	_	PROPN	PRP	_	3	nsubj	_	_
+2	never	_	ADV	RB	_	3	neg	_	_
+3	goes	_	VERB	VBZ	_	0	root	_	_
+4	out	_	ADP	RP	_	3	prt	_	_
+5	without	_	SCONJ	IN	_	3	prep	_	_
+6	losing	_	VERB	VBG	_	5	pcomp	_	_
+7	her	_	PRON	PRP$	_	8	poss	_	_
+8	umbrella	_	NOUN	NN	_	6	dobj	_	_
+9	.	_	PUNCT	.	_	3	punct	_	_
+Q	Sasha lose her wallet when she goes out.
+A	N
+
+#	InfinitiveVerb2	Sasha was not used to being treated like that .	InfinitiveVerb
+1	Sasha	_	PROPN	PRP	_	4	nsubjpass	_	_
+2	was	_	AUX	VBD	_	4	auxpass	_	_
+3	not	_	PART	RB	_	4	neg	_	_
+4	used	_	VERB	VBN	_	0	root	_	_
+5	to	_	ADP	TO	_	4	prep	_	_
+6	being	_	AUX	VBG	_	7	auxpass	_	_
+7	treated	_	VERB	VBN	_	5	pcomp	_	_
+8	like	_	ADP	IN	_	7	prep	_	_
+9	princess	_	PRON	DT	_	8	pobj	_	_
+10	.	_	PUNCT	.	_	4	punct	_	_
+Q	Everybody around Sasha treat her like princess.
+A	N
+
+#	InfinitiveVerb3	Kate objected to being treated like a small child .	InfinitiveVerb
+1	Kate	_	PROPN	PRP	_	2	nsubj	_	_
+2	objected	_	VERB	VBD	_	0	root	_	_
+3	to	_	ADP	TO	_	2	prep	_	_
+4	being	_	AUX	VBG	_	5	auxpass	_	_
+5	treated	_	VERB	VBN	_	3	pcomp	_	_
+6	like	_	ADP	IN	_	5	prep	_	_
+7	a	_	DET	DT	_	9	det	_	_
+8	small	_	ADJ	JJ	_	9	amod	_	_
+9	child	_	NOUN	NN	_	6	pobj	_	_
+10	.	_	PUNCT	.	_	2	punct	_	_
+Q	Kate does not like to be seen like a child.
+A	Y
+
+#	InfinitiveVerb4	This is a mistake of his own making .	InfinitiveVerb
+1	This	_	PRON	DT	_	4	nsubj	_	_
+2	is	_	VERB	VBZ	_	4	cop	_	_
+3	a	_	DET	DT	_	4	det	_	_
+4	mistake	_	NOUN	NN	_	0	root	_	_
+5	of	_	ADP	IN	_	4	prep	_	_
+6	his	_	PRON	PRP$	_	8	poss	_	_
+7	own	_	ADJ	JJ	_	8	amod	_	_
+8	making	_	NOUN	NN	_	5	pobj	_	_
+9	.	_	PUNCT	.	_	4	punct	_	_
+Q	The mistake is not his fault.
+A	N
+
+#	InfinitiveVerb5	James had a lot of difficulty in finding a new job .	InfinitiveVerb
+1	James	_	PROPN	PRP	_	2	nsubj	_	_
+2	had	_	VERB	VBD	_	0	root	_	_
+3	a	_	DET	DT	_	4	det	_	_
+4	lot	_	NOUN	NN	_	2	dobj	_	_
+5	of	_	ADP	IN	_	4	prep	_	_
+6	difficulty	_	NOUN	NN	_	5	pobj	_	_
+7	in	_	SCONJ	IN	_	2	prep	_	_
+8	finding	_	VERB	VBG	_	7	pcomp	_	_
+9	a	_	DET	DT	_	11	det	_	_
+10	new	_	ADJ	JJ	_	11	amod	_	_
+11	job	_	NOUN	NN	_	8	dobj	_	_
+12	.	_	PUNCT	.	_	2	punct	_	_
+Q	James was trying hard to find a new job.
+A	Y
+
+#	InfinitiveVerb6	It goes without saying that health is above wealth .	InfinitiveVerb
+1	It	_	PRON	PRP	_	2	nsubj	_	_
+2	goes	_	VERB	VBZ	_	0	root	_	_
+3	without	_	SCONJ	IN	_	2	prep	_	_
+4	saying	_	VERB	VBG	_	3	pcomp	_	_
+5	that	_	SCONJ	IN	_	7	mark	_	_
+6	health	_	NOUN	NN	_	7	nsubj	_	_
+7	is	_	VERB	VBZ	_	4	ccomp	_	_
+8	above	_	ADP	IN	_	7	prep	_	_
+9	wealth	_	NOUN	NN	_	8	pobj	_	_
+10	.	_	PUNCT	.	_	2	punct	_	_
+Q	Health is more important than how much you have money.
+A	Y
+
+#	InfinitiveVerb7	Rebecca was on the point of leaving when the phone rang .	InfinitiveVerb
+1	Rebecca	_	PROPN	PRP	_	2	nsubj	_	_
+2	was	_	VERB	VBD	_	0	root	_	_
+3	on	_	ADP	IN	_	2	prep	_	_
+4	the	_	DET	DT	_	5	det	_	_
+5	point	_	NOUN	NN	_	3	pobj	_	_
+6	of	_	SCONJ	IN	_	5	prep	_	_
+7	leaving	_	VERB	VBG	_	6	pcomp	_	_
+8	when	_	ADV	WRB	_	11	advmod	_	_
+9	the	_	DET	DT	_	10	det	_	_
+10	phone	_	NOUN	NN	_	11	nsubj	_	_
+11	rang	_	VERB	VBD	_	7	advcl	_	_
+12	.	_	PUNCT	.	_	2	punct	_	_
+Q	Rebecca was free when the phone rang.
+A	N
+
+#	Negation1	I do not want both of them .	Negation
+1	I	_	PRON	PRP	_	4	nsubj	_	_
+2	do	_	AUX	VBP	_	4	aux	_	_
+3	not	_	PART	RB	_	4	neg	_	_
+4	want	_	VERB	VB	_	0	root	_	_
+5	both	_	DET	DT	_	4	dobj	_	_
+6	of	_	ADP	IN	_	5	prep	_	_
+7	them	_	PRON	PRP	_	6	pobj	_	_
+8	.	_	PUNCT	.	_	4	punct	_	_
+Q	You do not want them.
+A	Y
+
+#	Negation2	Mika did not like all the boys in the class .	Negation
+1	Mika	_	PROPN	PRP	_	4	nsubj	_	_
+2	did	_	AUX	VBD	_	4	aux	_	_
+3	not	_	PART	RB	_	4	neg	_	_
+4	like	_	VERB	VB	_	0	root	_	_
+5	all	_	DET	PDT	_	7	predet	_	_
+6	the	_	DET	DT	_	7	det	_	_
+7	boys	_	NOUN	NNS	_	4	dobj	_	_
+8	in	_	ADP	IN	_	4	prep	_	_
+9	the	_	DET	DT	_	10	det	_	_
+10	class	_	NOUN	NN	_	8	pobj	_	_
+11	.	_	PUNCT	.	_	4	punct	_	_
+Q	Mika had a boy who she likes in the class.
+A	N
+
+#	Negation3	Things do not always turn out as they are expected to .	Negation
+1	Things	_	NOUN	NNS	_	5	nsubj	_	_
+2	do	_	AUX	VBP	_	5	aux	_	_
+3	not	_	PART	RB	_	5	neg	_	_
+4	always	_	ADV	RB	_	5	advmod	_	_
+5	turn	_	VERB	VB	_	0	root	_	_
+6	out	_	ADP	RP	_	5	prt	_	_
+7	as	_	SCONJ	IN	_	10	mark	_	_
+8	they	_	PRON	PRP	_	10	nsubjpass	_	_
+9	are	_	AUX	VBP	_	10	auxpass	_	_
+10	expected	_	VERB	VBN	_	5	advcl	_	_
+11	to	_	PART	TO	_	10	xcomp	_	_
+12	.	_	PUNCT	.	_	5	punct	_	_
+Q	It does not work well so much.
+A	Y
+
+#	Negation4	There is nobody who does not know her name .	Negation
+1	There	_	PRON	EX	_	2	expl	_	_
+2	is	_	VERB	VBZ	_	0	root	_	_
+3	nobody	_	PRON	NN	_	2	nsubj	_	_
+4	who	_	PRON	WP	_	7	nsubj	_	_
+5	does	_	AUX	VBZ	_	7	aux	_	_
+6	not	_	PART	RB	_	7	neg	_	_
+7	know	_	VERB	VB	_	3	rcmod	_	_
+8	her	_	PRON	PRP$	_	9	poss	_	_
+9	name	_	NOUN	NN	_	7	dobj	_	_
+10	.	_	PUNCT	.	_	2	punct	_	_
+Q	Everyone knows her name.
+A	Y
+
+#	Negation5	Penny is the last woman that I want to see .	Negation
+1	Penny	_	PROPN	PRP	_	5	nsubj	_	_
+2	is	_	VERB	VBZ	_	5	cop	_	_
+3	the	_	DET	DT	_	5	det	_	_
+4	last	_	ADJ	JJ	_	5	amod	_	_
+5	woman	_	NOUN	NN	_	0	root	_	_
+6	that	_	SCONJ	IN	_	8	mark	_	_
+7	I	_	PRON	PRP	_	8	nsubj	_	_
+8	want	_	VERB	VBP	_	5	ccomp	_	_
+9	to	_	PART	TO	_	10	aux	_	_
+10	see	_	VERB	VB	_	8	xcomp	_	_
+11	.	_	PUNCT	.	_	5	punct	_	_
+Q	You want to meet Penny.
+A	N
+
+#	Negation6	It remains to be seen whether the theory is right or not .	Negation
+1	It	_	PRON	PRP	_	2	nsubj	_	_
+2	remains	_	VERB	VBZ	_	0	root	_	_
+3	to	_	PART	TO	_	5	aux	_	_
+4	be	_	AUX	VB	_	5	auxpass	_	_
+5	seen	_	VERB	VBN	_	2	xcomp	_	_
+6	whether	_	SCONJ	IN	_	9	mark	_	_
+7	the	_	DET	DT	_	8	det	_	_
+8	theory	_	NOUN	NN	_	9	nsubj	_	_
+9	is	_	VERB	VBZ	_	5	ccomp	_	_
+10	right	_	ADV	RB	_	9	advmod	_	_
+11	or	_	CONJ	CC	_	10	cc	_	_
+12	not	_	PART	RB	_	10	conj	_	_
+13	.	_	PUNCT	.	_	2	punct	_	_
+Q	The theory is right.
+A	N
+
+#	Negation7	Bob tried in vain to solve the problem .	Negation
+1	Bob	_	PROPN	PRP	_	2	nsubj	_	_
+2	tried	_	VERB	VBD	_	0	root	_	_
+3	in	_	ADP	IN	_	2	prep	_	_
+4	vain	_	ADJ	JJ	_	3	pobj	_	_
+5	to	_	PART	TO	_	6	aux	_	_
+6	solve	_	VERB	VB	_	2	xcomp	_	_
+7	the	_	DET	DT	_	8	det	_	_
+8	problem	_	NOUN	NN	_	6	dobj	_	_
+9	.	_	PUNCT	.	_	2	punct	_	_
+Q	Bob finally solve the problem.
+A	N
+
+#	Number1	More and more people are downloading music from the Internet .	Number
+1	More	_	ADV	RBR	_	6	advmod	_	_
+2	and	_	CONJ	CC	_	1	cc	_	_
+3	more	_	ADV	RBR	_	1	conj	_	_
+4	people	_	NOUN	NNS	_	6	nsubj	_	_
+5	are	_	AUX	VBP	_	6	aux	_	_
+6	downloading	_	VERB	VBG	_	0	root	_	_
+7	music	_	NOUN	NN	_	6	dobj	_	_
+8	from	_	ADP	IN	_	6	prep	_	_
+9	the	_	DET	DT	_	10	det	_	_
+10	Internet	_	NOUN	NN	_	8	pobj	_	_
+11	.	_	PUNCT	.	_	6	punct	_	_
+Q	Many people get music from Internet.
+A	Y
+
+#	Number2	Fewer and fewer young people are interested in starting a family .	Number
+1	Fewer	_	ADJ	JJR	_	7	nsubj	_	_
+2	and	_	CONJ	CC	_	1	cc	_	_
+3	fewer	_	ADJ	JJR	_	5	amod	_	_
+4	young	_	ADJ	JJ	_	5	amod	_	_
+5	people	_	NOUN	NNS	_	1	conj	_	_
+6	are	_	VERB	VBP	_	7	cop	_	_
+7	interested	_	ADJ	JJ	_	0	root	_	_
+8	in	_	SCONJ	IN	_	7	prep	_	_
+9	starting	_	VERB	VBG	_	8	pcomp	_	_
+10	a	_	DET	DT	_	11	det	_	_
+11	family	_	NOUN	NN	_	9	dobj	_	_
+12	.	_	PUNCT	.	_	7	punct	_	_
+Q	Young people want to have a family.
+A	N
+
+#	Number3	Most of the big cities in Japan were bombed during the World War .	Number
+1	Most	_	ADJ	JJS	_	9	nsubjpass	_	_
+2	of	_	ADP	IN	_	1	prep	_	_
+3	the	_	DET	DT	_	5	det	_	_
+4	big	_	ADJ	JJ	_	5	amod	_	_
+5	cities	_	NOUN	NNS	_	2	pobj	_	_
+6	in	_	ADP	IN	_	5	prep	_	_
+7	Japan	_	PROPN	NNP	_	6	pobj	_	_
+8	were	_	AUX	VBD	_	9	auxpass	_	_
+9	bombed	_	VERB	VBN	_	0	root	_	_
+10	during	_	ADP	IN	_	9	prep	_	_
+11	the	_	DET	DT	_	13	det	_	_
+12	World	_	PROPN	NNP	_	13	nn	_	_
+13	War	_	PROPN	NNP	_	10	pobj	_	_
+14	.	_	PUNCT	.	_	9	punct	_	_
+Q	Almost all cities in Japan was safe during the World War.
+A	N
+
+#	Number4	Almost all the people at the party spoke to each other in English .	Number
+1	Almost	_	ADV	RB	_	4	advmod	_	_
+2	all	_	DET	PDT	_	4	predet	_	_
+3	the	_	DET	DT	_	4	det	_	_
+4	people	_	NOUN	NNS	_	8	nsubj	_	_
+5	at	_	ADP	IN	_	8	advmod	_	_
+6	the	_	DET	DT	_	7	det	_	_
+7	party	_	NOUN	NN	_	5	pobj	_	_
+8	spoke	_	VERB	VBD	_	0	root	_	_
+9	to	_	ADP	TO	_	8	prep	_	_
+10	each	_	DET	DT	_	11	det	_	_
+11	other	_	ADJ	JJ	_	9	pobj	_	_
+12	in	_	ADP	IN	_	8	prep	_	_
+13	English	_	PROPN	NNP	_	12	pobj	_	_
+14	.	_	PUNCT	.	_	8	punct	_	_
+Q	Most of people in the party spoke Spanish.
+A	N
+
+#	Number5	Most people believe the Internet has changed the world for the better .	Number
+1	Most	_	ADJ	JJS	_	2	amod	_	_
+2	people	_	NOUN	NNS	_	3	nsubj	_	_
+3	believe	_	VERB	VBP	_	0	root	_	_
+4	the	_	DET	DT	_	5	det	_	_
+5	Internet	_	NOUN	NN	_	7	nsubj	_	_
+6	has	_	AUX	VBZ	_	7	aux	_	_
+7	changed	_	VERB	VBN	_	3	ccomp	_	_
+8	the	_	DET	DT	_	9	det	_	_
+9	world	_	NOUN	NN	_	7	dobj	_	_
+10	for	_	ADP	IN	_	9	prep	_	_
+11	the	_	DET	DT	_	12	det	_	_
+12	better	_	ADJ	JJR	_	10	dep	_	_
+13	.	_	PUNCT	.	_	3	punct	_	_
+Q	Few people believe the internet has changed the world.
+A	N
+
+#	Number6	Some people find it difficult to ask for help .	Number
+1	Some	_	DET	DT	_	2	det	_	_
+2	people	_	NOUN	NNS	_	3	nsubj	_	_
+3	find	_	VERB	VBP	_	0	root	_	_
+4	it	_	PRON	PRP	_	5	nsubj	_	_
+5	difficult	_	ADJ	JJ	_	3	xcomp	_	_
+6	to	_	PART	TO	_	7	aux	_	_
+7	ask	_	VERB	VB	_	5	xcomp	_	_
+8	for	_	ADP	IN	_	7	prep	_	_
+9	help	_	NOUN	NN	_	8	pobj	_	_
+10	.	_	PUNCT	.	_	3	punct	_	_
+Q	Many people hesitate to ask something for others.
+A	N
+
+#	Number7	Few people know the truth .	Number
+1	Few	_	ADJ	JJ	_	2	amod	_	_
+2	people	_	NOUN	NNS	_	3	nsubj	_	_
+3	know	_	VERB	VBP	_	0	root	_	_
+4	the	_	DET	DT	_	5	det	_	_
+5	truth	_	NOUN	NN	_	3	dobj	_	_
+6	.	_	PUNCT	.	_	3	punct	_	_
+Q	Almost all people don’t know the truth.
+A	Y
+
+#	Pronoun1	The population of the U.S.A is larger than that of France .	Pronoun
+1	The	_	DET	DT	_	2	det	_	_
+2	population	_	NOUN	NN	_	7	nsubj	_	_
+3	of	_	ADP	IN	_	2	prep	_	_
+4	the	_	DET	DT	_	5	det	_	_
+5	U.S.A	_	NOUN	NN	_	3	pobj	_	_
+6	is	_	VERB	VBZ	_	7	cop	_	_
+7	larger	_	ADJ	JJR	_	0	root	_	_
+8	than	_	ADP	IN	_	7	prep	_	_
+9	that	_	PRON	DT	_	8	pobj	_	_
+10	of	_	ADP	IN	_	9	prep	_	_
+11	France	_	PROPN	NNP	_	10	pobj	_	_
+12	.	_	PUNCT	.	_	7	punct	_	_
+Q	The number of people living in U.S.A is large.
+A	Y
+
+#	Pronoun2	Tom can swim well , and so can I .	Pronoun
+1	Tom	_	PROPN	NNP	_	3	nsubj	_	_
+2	can	_	AUX	MD	_	3	aux	_	_
+3	swim	_	VERB	VB	_	0	root	_	_
+4	well	_	ADV	RB	_	3	advmod	_	_
+5	,	_	PUNCT	,	_	3	punct	_	_
+6	and	_	CONJ	CC	_	3	cc	_	_
+7	so	_	ADV	RB	_	8	advmod	_	_
+8	can	_	AUX	MD	_	3	conj	_	_
+9	I	_	PRON	PRP	_	8	nsubj	_	_
+10	.	_	PUNCT	.	_	3	punct	_	_
+Q	Tom is able to swim well.
+A	Y
+
+#	Pronoun3	Tom does not like him and neither do I .	Pronoun
+1	Tom	_	PROPN	PRP	_	4	nsubj	_	_
+2	does	_	AUX	VBP	_	4	aux	_	_
+3	not	_	PART	RB	_	4	neg	_	_
+4	like	_	VERB	VB	_	0	root	_	_
+5	him	_	PRON	PRP	_	4	dobj	_	_
+6	and	_	CONJ	CC	_	4	cc	_	_
+7	neither	_	ADV	RB	_	4	advmod	_	_
+8	do	_	VERB	VB	_	4	dep	_	_
+9	I	_	PRON	PRP	_	8	dobj	_	_
+10	.	_	PUNCT	.	_	4	punct	_	_
+Q	Tom and you hate him.
+A	Y
+
+#	Pronoun4	We were made to work late by a manager .	Pronoun
+1	We	_	PRON	PRP	_	3	nsubjpass	_	_
+2	were	_	AUX	VBD	_	3	auxpass	_	_
+3	made	_	VERB	VBN	_	0	root	_	_
+4	to	_	PART	TO	_	5	aux	_	_
+5	work	_	VERB	VB	_	3	xcomp	_	_
+6	late	_	ADV	RB	_	5	advmod	_	_
+7	by	_	ADP	IN	_	5	prep	_	_
+8	a	_	DET	DT	_	9	det	_	_
+9	manager	_	NOUN	NN	_	7	pobj	_	_
+10	.	_	PUNCT	.	_	3	punct	_	_
+Q	You did not want to work late.
+A	Y
+
+#	Pronoun5	The report is being prepared by the committee .	Pronoun
+1	The	_	DET	DT	_	2	det	_	_
+2	report	_	NOUN	NN	_	5	nsubjpass	_	_
+3	is	_	AUX	VBZ	_	5	aux	_	_
+4	being	_	AUX	VBG	_	5	auxpass	_	_
+5	prepared	_	VERB	VBN	_	0	root	_	_
+6	by	_	ADP	IN	_	5	prep	_	_
+7	the	_	DET	DT	_	8	det	_	_
+8	committee	_	NOUN	NN	_	6	pobj	_	_
+9	.	_	PUNCT	.	_	5	punct	_	_
+Q	Nobody knows who prepared the report.
+A	N
+
+#	Pronoun6	The teacher was laughed at by students .	Pronoun
+1	The	_	DET	DT	_	2	det	_	_
+2	teacher	_	NOUN	NN	_	4	nsubjpass	_	_
+3	was	_	AUX	VBD	_	4	auxpass	_	_
+4	laughed	_	VERB	VBN	_	0	root	_	_
+5	at	_	ADP	IN	_	4	prep	_	_
+6	by	_	ADP	IN	_	5	pcomp	_	_
+7	students	_	NOUN	NNS	_	6	pobj	_	_
+8	.	_	PUNCT	.	_	4	punct	_	_
+Q	Students laughed the teacher.
+A	Y
+
+#	Pronoun7	It is believed that the explorer died in the mountain .	Pronoun
+1	It	_	PRON	PRP	_	3	nsubjpass	_	_
+2	is	_	AUX	VBZ	_	3	auxpass	_	_
+3	believed	_	VERB	VBN	_	0	root	_	_
+4	that	_	SCONJ	IN	_	7	mark	_	_
+5	the	_	DET	DT	_	6	det	_	_
+6	explorer	_	NOUN	NN	_	7	nsubj	_	_
+7	died	_	VERB	VBD	_	3	ccomp	_	_
+8	in	_	ADP	IN	_	7	prep	_	_
+9	the	_	DET	DT	_	10	det	_	_
+10	mountain	_	NOUN	NN	_	8	pobj	_	_
+11	.	_	PUNCT	.	_	3	punct	_	_
+Q	The explorer might die on the bed silently.
+A	N
+
+#	RelativeClause1	This is a proverb whose meaning I can not understand .	RelativeClause
+1	This	_	PRON	DT	_	4	nsubj	_	_
+2	is	_	VERB	VBZ	_	4	cop	_	_
+3	a	_	DET	DT	_	4	det	_	_
+4	proverb	_	NOUN	NN	_	0	root	_	_
+5	whose	_	PRON	WP$	_	6	poss	_	_
+6	meaning	_	NOUN	NNS	_	10	dobj	_	_
+7	I	_	PRON	PRP	_	10	nsubj	_	_
+8	can	_	AUX	MD	_	10	aux	_	_
+9	not	_	PART	RB	_	10	neg	_	_
+10	understand	_	VERB	VB	_	4	rcmod	_	_
+11	.	_	PUNCT	.	_	4	punct	_	_
+Q	You have a proverb you cannot understand.
+A	Y
+
+#	RelativeClause2	That is the very problem that Tom have wanted to solve .	RelativeClause
+1	That	_	PRON	DT	_	5	nsubj	_	_
+2	is	_	VERB	VBZ	_	5	cop	_	_
+3	the	_	DET	DT	_	5	det	_	_
+4	very	_	ADJ	JJ	_	5	amod	_	_
+5	problem	_	NOUN	NN	_	0	root	_	_
+6	that	_	SCONJ	IN	_	9	mark	_	_
+7	Tom	_	PROPN	PRP	_	9	nsubj	_	_
+8	have	_	AUX	VBP	_	9	aux	_	_
+9	wanted	_	VERB	VBN	_	5	ccomp	_	_
+10	to	_	PART	TO	_	11	aux	_	_
+11	solve	_	VERB	VB	_	9	xcomp	_	_
+12	.	_	PUNCT	.	_	5	punct	_	_
+Q	Tom have faced a problem.
+A	Y
+
+#	RelativeClause3	Police found the knife with which the man killed her .	RelativeClause
+1	Police	_	PROPN	NNP	_	2	nsubj	_	_
+2	found	_	VERB	VBD	_	0	root	_	_
+3	the	_	DET	DT	_	4	det	_	_
+4	knife	_	NOUN	NN	_	2	dobj	_	_
+5	with	_	ADP	IN	_	9	prep	_	_
+6	which	_	PRON	WDT	_	5	pobj	_	_
+7	the	_	DET	DT	_	8	det	_	_
+8	man	_	NOUN	NN	_	9	nsubj	_	_
+9	killed	_	VERB	VBD	_	4	rcmod	_	_
+10	her	_	PRON	PRP	_	9	dobj	_	_
+11	.	_	PUNCT	.	_	2	punct	_	_
+Q	Police found the gun.
+A	N
+
+#	RelativeClause4	Tom is not what he used to be .	RelativeClause
+1	Tom	_	PROPN	NNP	_	2	nsubj	_	_
+2	is	_	VERB	VBZ	_	0	root	_	_
+3	not	_	PART	RB	_	2	neg	_	_
+4	what	_	PRON	WP	_	6	dobj	_	_
+5	he	_	PRON	PRP	_	6	nsubj	_	_
+6	used	_	VERB	VBD	_	2	ccomp	_	_
+7	to	_	PART	TO	_	8	aux	_	_
+8	be	_	VERB	VB	_	6	xcomp	_	_
+9	.	_	PUNCT	.	_	2	punct	_	_
+Q	Tom has changed.
+A	Y
+
+#	RelativeClause5	The man who Kate thought was honest deceived her .	RelativeClause
+1	The	_	DET	DT	_	2	det	_	_
+2	man	_	NOUN	NN	_	8	nsubj	_	_
+3	who	_	PRON	WP	_	5	dobj	_	_
+4	Kate	_	PROPN	PRP	_	5	nsubj	_	_
+5	thought	_	VERB	VBD	_	2	rcmod	_	_
+6	was	_	AUX	VBD	_	8	aux	_	_
+7	honest	_	ADJ	JJ	_	8	advmod	_	_
+8	deceived	_	VERB	VBG	_	0	root	_	_
+9	her	_	PRON	PRP	_	8	dobj	_	_
+10	.	_	PUNCT	.	_	8	punct	_	_
+Q	Kate was deceived.
+A	Y
+
+#	RelativeClause6	I have the same household worries as you have .	RelativeClause
+1	I	_	PRON	PRP	_	2	nsubj	_	_
+2	have	_	VERB	VBP	_	0	root	_	_
+3	the	_	DET	DT	_	5	det	_	_
+4	same	_	ADJ	JJ	_	5	amod	_	_
+5	household	_	NOUN	NN	_	2	dobj	_	_
+6	worries	_	VERB	VBZ	_	5	rcmod	_	_
+7	as	_	SCONJ	IN	_	9	mark	_	_
+8	you	_	PRON	PRP	_	9	nsubj	_	_
+9	have	_	VERB	VBP	_	6	advcl	_	_
+10	.	_	PUNCT	.	_	2	punct	_	_
+Q	You have a worries about job.
+A	N
+
+#	RelativeClause7	There is no rule but has some exceptions .	RelativeClause
+1	There	_	PRON	EX	_	4	expl	_	_
+2	is	_	VERB	VBZ	_	4	cop	_	_
+3	no	_	DET	DT	_	4	neg	_	_
+4	rule	_	NOUN	NN	_	0	root	_	_
+5	but	_	CONJ	CC	_	4	cc	_	_
+6	has	_	VERB	VBZ	_	4	conj	_	_
+7	some	_	DET	DT	_	8	det	_	_
+8	exceptions	_	NOUN	NNS	_	4	nsubj	_	_
+9	.	_	PUNCT	.	_	4	punct	_	_
+Q	No exceptions are permitted.
+A	N
+
+#	RelativeClause8	Tom is the only man I know who can do it .	RelativeClause
+1	Tom	_	PROPN	PRP	_	5	nsubj	_	_
+2	is	_	VERB	VBZ	_	5	cop	_	_
+3	the	_	DET	DT	_	5	det	_	_
+4	only	_	ADJ	JJ	_	5	amod	_	_
+5	man	_	NOUN	NN	_	0	root	_	_
+6	I	_	PRON	PRP	_	7	nsubj	_	_
+7	know	_	VERB	VBP	_	5	rcmod	_	_
+8	who	_	PRON	WP	_	10	nsubj	_	_
+9	can	_	AUX	MD	_	10	aux	_	_
+10	do	_	VERB	VB	_	7	ccomp	_	_
+11	it	_	PRON	PRP	_	10	dobj	_	_
+12	.	_	PUNCT	.	_	5	punct	_	_
+Q	Only Tom can do it.
+A	Y
+
+#	RelativeClause9	The day will come when Alice will regret it .	RelativeClause
+1	The	_	DET	DT	_	2	det	_	_
+2	day	_	NOUN	NN	_	4	nsubj	_	_
+3	will	_	AUX	MD	_	4	aux	_	_
+4	come	_	VERB	VB	_	0	root	_	_
+5	when	_	ADV	WRB	_	8	advmod	_	_
+6	Alice	_	PROPN	PRP	_	8	nsubj	_	_
+7	will	_	AUX	MD	_	8	aux	_	_
+8	regret	_	VERB	VB	_	4	advcl	_	_
+9	it	_	PRON	PRP	_	8	dobj	_	_
+10	.	_	PUNCT	.	_	4	punct	_	_
+Q	Alice will be always good about it.
+A	N
+
+#	RelativeClause10	Whoever reads this book must be moved into tears .	RelativeClause
+1	Whoever	_	PROPN	NNP	_	2	nsubj	_	_
+2	reads	_	VERB	VBZ	_	0	root	_	_
+3	this	_	DET	DT	_	4	det	_	_
+4	book	_	NOUN	NN	_	7	nsubjpass	_	_
+5	must	_	AUX	MD	_	7	aux	_	_
+6	be	_	AUX	VB	_	7	auxpass	_	_
+7	moved	_	VERB	VBN	_	2	ccomp	_	_
+8	into	_	ADP	IN	_	7	prep	_	_
+9	tears	_	NOUN	NNS	_	8	pobj	_	_
+10	.	_	PUNCT	.	_	2	punct	_	_
+Q	Everyone is impressed with the book.
+A	Y
+
+#	RelativeClause11	The teacher gave us whatever help we needed .	RelativeClause
+1	The	_	DET	DT	_	2	det	_	_
+2	teacher	_	NOUN	NN	_	3	nsubj	_	_
+3	gave	_	VERB	VBD	_	0	root	_	_
+4	us	_	PRON	PRP	_	3	dobj	_	_
+5	whatever	_	DET	WDT	_	6	nsubj	_	_
+6	help	_	VERB	VBP	_	3	dep	_	_
+7	we	_	PRON	PRP	_	8	nsubj	_	_
+8	needed	_	VERB	VBD	_	6	ccomp	_	_
+9	.	_	PUNCT	.	_	3	punct	_	_
+Q	Teacher basically did not help us.
+A	N
+
+#	RelativeClause12	Peter lost the game , which made his brother very angry .	RelativeClause
+1	Peter	_	PROPN	NNP	_	2	nsubj	_	_
+2	lost	_	VERB	VBD	_	0	root	_	_
+3	the	_	DET	DT	_	4	det	_	_
+4	game	_	NOUN	NN	_	2	dobj	_	_
+5	,	_	PUNCT	,	_	4	punct	_	_
+6	which	_	PRON	WDT	_	7	nsubj	_	_
+7	made	_	VERB	VBD	_	4	rcmod	_	_
+8	his	_	PRON	PRP$	_	9	poss	_	_
+9	brother	_	NOUN	NN	_	11	nsubj	_	_
+10	very	_	ADV	RB	_	11	advmod	_	_
+11	angry	_	ADJ	JJ	_	7	xcomp	_	_
+12	.	_	PUNCT	.	_	2	punct	_	_
+Q	Peter’s brother got so angry.
+A	Y
+
+#	RelativeClause13	As is often the case with Michael , he lost her temper .	RelativeClause
+1	As	_	SCONJ	IN	_	5	mark	_	_
+2	is	_	VERB	VBZ	_	5	cop	_	_
+3	often	_	ADV	RB	_	5	advmod	_	_
+4	the	_	DET	DT	_	5	det	_	_
+5	case	_	NOUN	NN	_	10	advcl	_	_
+6	with	_	ADP	IN	_	5	prep	_	_
+7	Michael	_	PROPN	PRP	_	6	pobj	_	_
+8	,	_	PUNCT	,	_	10	punct	_	_
+9	he	_	PRON	PRP	_	10	nsubj	_	_
+10	lost	_	VERB	VBD	_	0	root	_	_
+11	his	_	PRON	PRP$	_	12	poss	_	_
+12	temper	_	NOUN	NN	_	10	dobj	_	_
+13	.	_	PUNCT	.	_	10	punct	_	_
+Q	Michael is so calm.
+A	N
+
+#	Result1	Joe is so honest that he is trusted by everybody in the class .	Result
+1	Joe	_	PROPN	PRP	_	4	nsubj	_	_
+2	is	_	VERB	VBZ	_	4	cop	_	_
+3	so	_	ADV	RB	_	4	advmod	_	_
+4	honest	_	ADJ	JJ	_	0	root	_	_
+5	that	_	SCONJ	IN	_	8	mark	_	_
+6	he	_	PRON	PRP	_	8	nsubjpass	_	_
+7	is	_	AUX	VBZ	_	8	auxpass	_	_
+8	trusted	_	VERB	VBN	_	4	ccomp	_	_
+9	by	_	ADP	IN	_	8	prep	_	_
+10	everybody	_	PRON	NN	_	9	pobj	_	_
+11	in	_	ADP	IN	_	10	prep	_	_
+12	the	_	DET	DT	_	13	det	_	_
+13	class	_	NOUN	NN	_	11	pobj	_	_
+14	.	_	PUNCT	.	_	4	punct	_	_
+Q	Everyone believe Joe because of his personality.
+A	Y
+
+#	Result2	It was such a fine day that we went on a picnic .	Result
+1	It	_	PRON	PRP	_	6	nsubj	_	_
+2	was	_	VERB	VBD	_	6	cop	_	_
+3	such	_	DET	PDT	_	6	predet	_	_
+4	a	_	DET	DT	_	6	det	_	_
+5	fine	_	ADJ	JJ	_	6	amod	_	_
+6	day	_	NOUN	NN	_	0	root	_	_
+7	that	_	SCONJ	IN	_	9	mark	_	_
+8	we	_	PRON	PRP	_	9	nsubj	_	_
+9	went	_	VERB	VBD	_	6	ccomp	_	_
+10	on	_	ADP	IN	_	9	prep	_	_
+11	a	_	DET	DT	_	12	det	_	_
+12	picnic	_	NOUN	NN	_	10	pobj	_	_
+13	.	_	PUNCT	.	_	6	punct	_	_
+Q	It is rain.
+A	N
+
+#	Result3	So great was his surprise that he could not utter a word for a while .	Result
+1	So	_	ADP	IN	_	5	dep	_	_
+2	great	_	ADJ	JJ	_	5	nsubj	_	_
+3	was	_	VERB	VBD	_	5	cop	_	_
+4	his	_	PRON	PRP$	_	5	poss	_	_
+5	surprise	_	NOUN	NN	_	0	root	_	_
+6	that	_	SCONJ	IN	_	10	mark	_	_
+7	he	_	PRON	PRP	_	10	nsubj	_	_
+8	could	_	AUX	MD	_	10	aux	_	_
+9	not	_	PART	RB	_	10	neg	_	_
+10	utter	_	VERB	VB	_	5	ccomp	_	_
+11	a	_	DET	DT	_	12	det	_	_
+12	word	_	NOUN	NN	_	10	dobj	_	_
+13	for	_	ADP	IN	_	12	prep	_	_
+14	a	_	DET	DT	_	15	det	_	_
+15	while	_	NOUN	NN	_	13	pobj	_	_
+16	.	_	PUNCT	.	_	5	punct	_	_
+Q	Something so unbelievable was happened.
+A	Y
+
+#	Result4	To my great regret , I could not attend the last meeting .	Result
+1	To	_	ADP	TO	_	9	prep	_	_
+2	my	_	PRON	PRP$	_	4	poss	_	_
+3	great	_	ADJ	JJ	_	4	amod	_	_
+4	regret	_	NOUN	NN	_	1	pobj	_	_
+5	,	_	PUNCT	,	_	9	punct	_	_
+6	I	_	PRON	PRP	_	9	nsubj	_	_
+7	could	_	AUX	MD	_	9	aux	_	_
+8	not	_	PART	RB	_	9	neg	_	_
+9	attend	_	VERB	VB	_	0	root	_	_
+10	the	_	DET	DT	_	12	det	_	_
+11	last	_	ADJ	JJ	_	12	amod	_	_
+12	meeting	_	NOUN	NN	_	9	dobj	_	_
+13	.	_	PUNCT	.	_	9	punct	_	_
+Q	You wanted to attend the meeting.
+A	Y
+
+#	There1	There used to be a big tree on the corner .	There
+1	There	_	PRON	EX	_	2	expl	_	_
+2	used	_	VERB	VBD	_	0	root	_	_
+3	to	_	PART	TO	_	7	aux	_	_
+4	be	_	VERB	VB	_	7	cop	_	_
+5	a	_	DET	DT	_	7	det	_	_
+6	big	_	ADJ	JJ	_	7	amod	_	_
+7	tree	_	NOUN	NN	_	2	xcomp	_	_
+8	on	_	ADP	IN	_	7	prep	_	_
+9	the	_	DET	DT	_	10	det	_	_
+10	corner	_	NOUN	NN	_	8	pobj	_	_
+11	.	_	PUNCT	.	_	2	punct	_	_
+Q	There were a big house on the corner.
+A	N
+
+#	There2	There seems to be no hope of Joe’s recovery .	There
+1	There	_	PRON	EX	_	2	expl	_	_
+2	seems	_	VERB	VBZ	_	0	root	_	_
+3	to	_	PART	TO	_	6	aux	_	_
+4	be	_	VERB	VB	_	6	cop	_	_
+5	no	_	DET	DT	_	6	neg	_	_
+6	hope	_	NOUN	NN	_	2	xcomp	_	_
+7	of	_	ADP	IN	_	6	prep	_	_
+8	Joe’s	_	PROPN	PRP$	_	9	poss	_	_
+9	recovery	_	NOUN	NN	_	7	pobj	_	_
+10	.	_	PUNCT	.	_	2	punct	_	_
+Q	Joe’s recovery is hopeless.
+A	Y
+
+#	There3	Once upon a time there lived an old woman .	There
+1	Once	_	ADV	RB	_	6	advmod	_	_
+2	upon	_	ADP	IN	_	1	prep	_	_
+3	a	_	DET	DT	_	4	det	_	_
+4	time	_	NOUN	NN	_	2	pobj	_	_
+5	there	_	PRON	EX	_	6	expl	_	_
+6	lived	_	VERB	VBD	_	0	root	_	_
+7	an	_	DET	DT	_	9	det	_	_
+8	old	_	ADJ	JJ	_	9	amod	_	_
+9	woman	_	NOUN	NN	_	6	dobj	_	_
+10	.	_	PUNCT	.	_	6	punct	_	_
+Q	Old woman lived there.
+A	Y
+
+#	Time1	It has been five years since I saw my father last .	Time
+1	It	_	PRON	PRP	_	5	nsubj	_	_
+2	has	_	AUX	VBZ	_	5	aux	_	_
+3	been	_	VERB	VBN	_	5	cop	_	_
+4	five	_	NUM	CD	_	5	num	_	_
+5	years	_	NOUN	NNS	_	0	root	_	_
+6	since	_	SCONJ	IN	_	8	mark	_	_
+7	I	_	PRON	PRP	_	8	nsubj	_	_
+8	saw	_	VERB	VBD	_	5	advcl	_	_
+9	my	_	PRON	PRP$	_	10	poss	_	_
+10	father	_	NOUN	NN	_	8	dobj	_	_
+11	last	_	ADV	RB	_	8	advmod	_	_
+12	.	_	PUNCT	.	_	5	punct	_	_
+Q	You have not met your father recently.
+A	Y
+
+#	Time2	It was not long before she got well .	Time
+1	It	_	PRON	PRP	_	4	nsubj	_	_
+2	was	_	VERB	VBD	_	4	cop	_	_
+3	not	_	PART	RB	_	4	neg	_	_
+4	long	_	ADJ	JJ	_	0	root	_	_
+5	before	_	SCONJ	IN	_	7	mark	_	_
+6	she	_	PRON	PRP	_	7	nsubj	_	_
+7	got	_	VERB	VBD	_	4	advcl	_	_
+8	well	_	ADV	RB	_	7	advmod	_	_
+9	.	_	PUNCT	.	_	4	punct	_	_
+Q	It took a long time for her to get well.
+A	N
+
+#	Time3	Cathy was not until she was thirty that she started to use computers .	Time
+1	Cathy	_	PROPN	PRP	_	2	nsubj	_	_
+2	was	_	VERB	VBD	_	0	root	_	_
+3	not	_	ADV	RB	_	7	dep	_	_
+4	until	_	SCONJ	IN	_	7	mark	_	_
+5	I	_	PRON	PRP	_	7	nsubj	_	_
+6	was	_	VERB	VBD	_	7	cop	_	_
+7	thirty	_	NUM	CD	_	2	advcl	_	_
+8	that	_	SCONJ	IN	_	10	mark	_	_
+9	I	_	PRON	PRP	_	10	nsubj	_	_
+10	started	_	VERB	VBD	_	7	ccomp	_	_
+11	to	_	PART	TO	_	12	aux	_	_
+12	use	_	VERB	VB	_	10	xcomp	_	_
+13	computers	_	NOUN	NNS	_	12	dobj	_	_
+14	.	_	PUNCT	.	_	2	punct	_	_
+Q	Cathy was familiar with computers from when she was young.
+A	N
+
+#	Time4	No sooner had Kyle reached there than he began to call Mary .	Time
+1	No	_	DET	DT	_	2	neg	_	_
+2	sooner	_	NOUN	NN	_	3	nsubj	_	_
+3	had	_	VERB	VBD	_	0	root	_	_
+4	Kyle	_	PROPN	PRP	_	5	nsubj	_	_
+5	reached	_	VERB	VBN	_	3	ccomp	_	_
+6	there	_	ADV	RB	_	5	advmod	_	_
+7	than	_	SCONJ	IN	_	9	mark	_	_
+8	he	_	PRON	PRP	_	9	nsubj	_	_
+9	began	_	VERB	VBD	_	5	advcl	_	_
+10	to	_	PART	TO	_	11	aux	_	_
+11	call	_	VERB	VB	_	9	xcomp	_	_
+12	Mary	_	PROPN	PRP	_	11	dobj	_	_
+13	.	_	PUNCT	.	_	3	punct	_	_
+Q	When Kyle arrived there, he contacted Mary.
+A	Y
+
+#	Time5	Rachel had not been abroad for one month before she got homesick .	Time
+1	Rachel	_	PROPN	PRP	_	8	nsubj	_	_
+2	had	_	AUX	VBD	_	8	aux	_	_
+3	not	_	PART	RB	_	8	neg	_	_
+4	been	_	VERB	VBN	_	8	cop	_	_
+5	abroad	_	ADV	RB	_	6	advmod	_	_
+6	for	_	ADP	IN	_	8	prep	_	_
+7	one	_	NUM	CD	_	6	pobj	_	_
+8	month	_	NOUN	NN	_	0	root	_	_
+9	before	_	SCONJ	IN	_	11	mark	_	_
+10	she	_	PRON	PRP	_	11	nsubj	_	_
+11	got	_	VERB	VBD	_	8	advcl	_	_
+12	homesick	_	NOUN	NN	_	11	dobj	_	_
+13	.	_	PUNCT	.	_	8	punct	_	_
+Q	Rachel wanted to go back her home.
+A	Y
+
+#	Time6	Leon visited his home town for the first time in twenty years absence .	Time
+1	Leon	[	PROPN	PRP	_	2	nsubj	_	_
+2	visited	_	VERB	VBD	_	0	root	_	_
+3	his	_	PRON	PRP$	_	5	poss	_	_
+4	home	_	NOUN	NN	_	5	nn	_	_
+5	town	_	NOUN	NN	_	2	dobj	_	_
+6	for	_	ADP	IN	_	2	prep	_	_
+7	the	_	DET	DT	_	9	det	_	_
+8	first	_	ADJ	JJ	_	9	amod	_	_
+9	time	_	NOUN	NN	_	6	pobj	_	_
+10	in	_	ADP	IN	_	2	prep	_	_
+11	twenty	_	NUM	CD	_	13	num	_	_
+12	years	_	NOUN	NNS	_	13	nn	_	_
+13	absence	_	NOUN	NN	_	10	pobj	_	_
+14	.	_	PUNCT	.	_	2	punct	_	_
+Q	Leon often gets back to his hometown.
+A	N

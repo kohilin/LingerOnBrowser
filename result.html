@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.min.js"></script>
+
+
+    <!-- Bootstrap -->
+    <link href="../bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="./js/resultView.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Word Order</h2>
+        <p>
+            単語の出現順番と読み時間。</br>
+            （例　Taro/1 hits/2 Mary/3)
+        </p>
+        <div>
+            <canvas id="word_order"></canvas>
+        </div>
+        <h2>Word Length</h2>
+        <p>
+            単語の長さと読み時間。</br>
+            （例　Taro/4 hits/4 Mary/4)
+        </p>
+
+        <div>
+            <canvas id="word_length"></canvas>
+        </div>
+
+        <h2>Part of Speech</h2>
+        <p>
+            単語の品詞と読み時間。</br>
+            (例　Taro/PROPN hits/VERB Mary/PROPN, <a href="http://universaldependencies.org/u/pos/index.html" target="_brank">universal dependecies POS set</a>)
+        </p>
+        <div>
+            <canvas id="pos"></canvas>
+        </div>
+
+        <h2>Bigram</h2>
+        <p>
+            2単語の品詞の並びと読み時間。</br>
+            (例　Taro/s-PROPN hits/PROPN-VERB Mary/VERB-PROPN)
+
+        </p>
+        <div>
+            <canvas id="bigram"></canvas>
+        </div>
+        <h2>Trigram</h2>
+        <p>
+            3単語の品詞の並びと読み時間。</br>
+            (例　Taro/s-s-PROPN hits/s-PROPN-VERB Mary/PROPN-VERB-PROPN)
+
+        </p>
+        <div>
+            <canvas id="trigram"></canvas>
+        </div>
+        <h2>Dependency Distance</h2>
+        <p>
+            係り受けの距離（<a href="http://nlp.stanford.edu/software/lex-parser.shtml" target="_brank">Stanford Parser</a>による自動解析）</br>
+            （例　Taro/1 hits/0 Mary/1, 数字が大きいほど依存関係の距離が長い）
+        </p>
+        <div>
+            <canvas id="depdist"></canvas>
+        </div>
+        <h2>Dependency Relation</h2>
+        <p>
+            係り受けの関係 (例　Taro/nsubj hits/root Mary/dobj, <a href="http://universaldependencies.org/u/dep/index.html" target="_brank">universal dependecies relations set</a> *Stanford Parserによる解析のため一部ずれています。)
+        </p>
+        <div>
+            <canvas id="deprel"></canvas>
+        </div>
+
+
+        <div>
+            <h2>Weak Words</h2>
+            <p>
+                苦手な？単語（反応が遅かった単語, リンクはweblioに飛びます。）
+                <table id="weak_word_self" border=1 width=200 cellspacing="0" cellpadding="5">Yours</table>
+                </br>
+                <table id="weak_word_others" border=1 width=200 cellspacing="0" cellpadding="5"> Others</table>
+                </br>
+            </p>
+        </div>
+
+        <div>
+            <h2>Good Words</h2>
+            <p>
+                得意な？単語（反応が速かった単語, リンクはweblioに飛びます。）
+                <table id="good_word_self" border=1 width=200 cellspacing="0" cellpadding="5">Yours</table>
+                </br>
+                <table id="good_word_others" border=1 width=200 cellspacing="0" cellpadding="5"> Others</table>
+                </br>
+            </p>
+        </div>
+
+        <h2>Inccorectly Responded Sentences in tems of Phrase Type</h2>
+        <p>
+            構文別誤答割合。</br>
+            <table border=1 width=1000>例文
+                <tr>
+                    <td>Aux</td>
+                    <td> This book <strong>might </strong> be useful for you.</td>
+                </tr>
+                <tr>
+                    <td>Causality</td>
+                    <td>He was forced to resign <strong>because</strong> he had taken a bribe.</td>
+                </tr>
+                <tr>
+                    <td>Compare</td>
+                    <td>The actor is not <strong>so attractive as</strong> he used to be.</td>
+                </tr>
+                <tr>
+                    <td>Concession</td>
+                    <td>You must study history <strong>even if</strong> you do not like it.</td>
+                </tr>
+                <tr>
+                    <td>Condition</td>
+                    <td>Any dress will do <strong>provided that</strong> it is red.</td>
+                </tr>
+                <tr>
+                    <td>FormalObj</td>
+                    <td>Tom found <strong>it</strong> easy <strong>to</strong> deceive Rachel.</td>
+                </tr>
+                <tr>
+                    <td>FormalSubj</td>
+                    <td><strong>It</strong> is impossible for Katy <strong>to</strong> live on such low wages.</td>
+                </tr>
+                <tr>
+                    <td>InfinitiveAdverb</td>
+                    <td>This bag is <strong>too heavy</strong> for me to carry.</td>
+                </tr>
+                <tr>
+                    <td>InfinitiveNoun</td>
+                    <td>I found it <strong>impossible</strong> to do the job in a day.</td>
+                </tr>
+                <tr>
+                    <td>InfinitiveStructurePhrase</td>
+                    <td>Maggie was listening to the music , <strong>with her eyes closed.</strong></td>
+                </tr>
+                <tr>
+                    <td>InfinitiveSVOC</td>
+                    <td>Tom have heard it said that honesty is the best policy.</td>
+                </tr>
+
+                <tr>
+                    <td>InfinitiveVerb</td>
+                    <td>It goes without <strong>saying</strong> that health is above wealth.</td>
+                </tr>
+                <tr>
+                    <td>Negation</td>
+                    <td>Bob tried <strong>in vain to</strong> solve the problem.</td>
+                </tr>
+                <tr>
+                    <td>Number</td>
+                    <td><strong>Few</strong> people know the truth.</td>
+                </tr>
+                <tr>
+                    <td>Pronoun</td>
+                    <td>The report is being prepared by the committee.</td>
+                </tr>
+                <tr>
+                    <td>RelativeClause</td>
+                    <td>Peter lost the game, <strong>which made his brother very angry.</strong></td>
+                </tr>
+                <tr>
+                    <td>Result</td>
+                    <td><strong>So</strong> great was his surprise <strong>that</strong> he could not utter a word for a while.</td>
+                </tr>
+                <tr>
+                    <td>There</td>
+                    <td><strong>There</strong> seems to be no hope of Joe’s recovery.</td>
+                </tr>
+                <tr>
+                    <td>Time</td>
+                    <td>
+                        <Strong>No sooner</strong> had Kyle reached there than he began to call Mary.</td>
+                </tr>
+            </table>
+
+        </p>
+        <div>
+            <canvas id="failed_sentence_self"></canvas>
+        </div>
+        <div>
+            <canvas id="failed_sentence_others"></canvas>
+        </div>
+
+    </div>
+</body>
+
+</html>
